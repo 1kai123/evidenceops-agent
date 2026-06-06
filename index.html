@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EvidenceOps Agent</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="kicker">EvidenceOps Agent</p>
+          <h1>AI incident response workspace</h1>
+        </div>
+        <div class="top-actions">
+          <label class="scenario-select">
+            <span>Scenario</span>
+            <select id="scenarioSelect"></select>
+          </label>
+          <button class="icon-button" id="loadScenario" title="Load scenario" aria-label="Load scenario">
+            <span>↻</span>
+          </button>
+          <button class="primary" id="runAgent">Run agent</button>
+        </div>
+      </header>
+
+      <section class="score-strip" aria-label="Incident score summary">
+        <article>
+          <span>Risk</span>
+          <strong id="riskScore">--</strong>
+        </article>
+        <article>
+          <span>Confidence</span>
+          <strong id="confidence">--</strong>
+        </article>
+        <article>
+          <span>Evidence</span>
+          <strong id="evidenceCount">--</strong>
+        </article>
+        <article>
+          <span>Response ETA</span>
+          <strong id="eta">--</strong>
+        </article>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel alert-panel">
+          <div class="panel-title">
+            <span class="signal"></span>
+            <h2>Alert Feed</h2>
+          </div>
+          <div id="alertFeed" class="alert-feed"></div>
+        </aside>
+
+        <section class="panel evidence-panel">
+          <div class="panel-title">
+            <span class="signal blue"></span>
+            <h2>Evidence Timeline</h2>
+          </div>
+          <div class="timeline" id="timeline"></div>
+        </section>
+
+        <aside class="panel agent-panel">
+          <div class="panel-title">
+            <span class="signal amber"></span>
+            <h2>Agent Reasoning</h2>
+          </div>
+          <div class="agent-output" id="agentOutput">
+            <p>Load the scenario, then run the agent to produce an incident brief.</p>
+          </div>
+          <div class="approval-block">
+            <h3>Human Approval Queue</h3>
+            <div id="approvalQueue" class="approval-queue"></div>
+          </div>
+          <button class="secondary" id="copyReport">Copy report</button>
+          <button class="secondary" id="downloadReport">Download report</button>
+        </aside>
+      </section>
+
+      <section class="report">
+        <div class="report-head">
+          <h2>Submission Brief</h2>
+          <span id="briefStatus">draft</span>
+        </div>
+        <pre id="reportText"></pre>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
