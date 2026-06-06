@@ -111,7 +111,7 @@ EvidenceOps Agent can be adapted into an "Analyst Training Loop" or "MCP-Connect
 - Dataset documentation is started in `DATASET.md`.
 - Accuracy report is started in `ACCURACY_REPORT.md`.
 - Structured agent execution logs are mocked in `EXECUTION_LOG_SAMPLE.md`.
-- Add SIFT/Protocol SIFT integration or clearly documented mock integration.
+- SIFT/Protocol SIFT integration is documented in `SIFT_DFIR_INTEGRATION.md`.
 
 ## Band of Agents
 

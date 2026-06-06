@@ -67,6 +67,7 @@ Already prepared:
 - `ACCURACY_REPORT.md`
 - `ARCHITECTURE.md`
 - `EXECUTION_LOG_SAMPLE.md`
+- `SIFT_DFIR_INTEGRATION.md`
 
 ## Submission Order
 
