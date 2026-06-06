@@ -1,0 +1,35 @@
+{
+  "projectName": "EvidenceOps Agent",
+  "tagline": "Explainable AI incident response with evidence timelines, multi-agent reasoning, and human approval gates.",
+  "shortDescription": "EvidenceOps Agent is an AI incident response workspace that turns fragmented security alerts into evidence timelines, risk scoring, agent reasoning, human approval gates, and downloadable incident briefs.",
+  "repositoryName": "evidenceops-agent",
+  "repositoryDescription": "Explainable AI incident response workspace for hackathon submission.",
+  "builtWith": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Mock SIEM telemetry",
+    "Agent workflow design"
+  ],
+  "priorityHackathons": [
+    {
+      "name": "Band of Agents",
+      "positioning": "Multi-agent enterprise incident response workflow with human approval boundaries."
+    },
+    {
+      "name": "Splunk Agentic Ops Hackathon",
+      "positioning": "Splunk-ready agentic SecOps cockpit using saved searches and MCP-style tool calls."
+    },
+    {
+      "name": "FIND EVIL!",
+      "positioning": "Evidence-first DFIR assistant prototype with SIFT integration plan and execution logs."
+    }
+  ],
+  "linksToFillAfterPublish": {
+    "githubRepository": "TODO",
+    "demoUrl": "TODO",
+    "demoVideoUrl": "TODO"
+  },
+  "recommendedDemoScenario": "OAuth Token Theft",
+  "finalSubmitRequiresUserConfirmation": true
+}
