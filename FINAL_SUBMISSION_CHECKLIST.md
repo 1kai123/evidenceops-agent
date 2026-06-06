@@ -62,6 +62,7 @@ GitHub Pages option:
 ## 6. Files Judges Should Notice
 
 - `README.md`: run instructions and product overview.
+- `CURRENT_STATUS.md`: current publish/submission status and next actions.
 - `ONE_PAGE_PITCH.md`: one-page product and hackathon pitch.
 - `JUDGING_HIGHLIGHTS.md`: strongest differentiators and demo path.
 - `SUBMISSION_RISKS.md`: known submission risks and mitigations.

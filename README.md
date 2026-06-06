@@ -11,6 +11,7 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 ## Submission Pack
 
 - `ONE_PAGE_PITCH.md`: judge-friendly one-page pitch.
+- `CURRENT_STATUS.md`: current publish/submission status and next actions.
 - `JUDGING_HIGHLIGHTS.md`: strongest differentiators and demo path.
 - `SUBMISSION_RISKS.md`: risks that can weaken the submission and how to mitigate them.
 - `DEVPOST_ANSWERS.md`: copy-ready answers for common hackathon forms.
