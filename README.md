@@ -8,6 +8,15 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - Splunk Agentic Ops Hackathon: agentic security operations and observability workflow.
 - Band of Agents: multi-agent enterprise workflow, with agents for evidence collection, threat assessment, and response drafting.
 
+## Submission Pack
+
+- `ONE_PAGE_PITCH.md`: judge-friendly one-page pitch.
+- `JUDGING_HIGHLIGHTS.md`: strongest differentiators and demo path.
+- `SUBMISSION_RISKS.md`: risks that can weaken the submission and how to mitigate them.
+- `DEVPOST_ANSWERS.md`: copy-ready answers for common hackathon forms.
+- `VIDEO_SHOTLIST.md`: 2-3 minute demo recording script.
+- `FINAL_SUBMISSION_CHECKLIST.md`: final publish, deploy, video, and submission checklist.
+
 ## Demo
 
 Open `index.html` in a browser.

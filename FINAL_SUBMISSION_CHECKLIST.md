@@ -56,6 +56,9 @@ GitHub Pages option:
 ## 6. Files Judges Should Notice
 
 - `README.md`: run instructions and product overview.
+- `ONE_PAGE_PITCH.md`: one-page product and hackathon pitch.
+- `JUDGING_HIGHLIGHTS.md`: strongest differentiators and demo path.
+- `SUBMISSION_RISKS.md`: known submission risks and mitigations.
 - `ARCHITECTURE.md`: agent architecture and trust boundaries.
 - `DATASET.md`: scenario documentation.
 - `ACCURACY_REPORT.md`: prototype verification and limitations.
