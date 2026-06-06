@@ -59,17 +59,19 @@ HTML, CSS, JavaScript, mock SIEM telemetry, agent workflow design.
 
 ### Repository URL
 
-TODO: Add GitHub repository URL.
+https://github.com/1kai123/evidenceops-agent
 
 ### Demo URL
 
-TODO: Add deployed site URL.
+https://1kai123.github.io/evidenceops-agent/ after GitHub Pages is enabled and verified.
 
 ### Demo Video URL
 
 TODO: Add YouTube, Vimeo, or Youku URL after recording.
 
 ## Splunk Agentic Ops Hackathon
+
+Use `SPLUNK_SUBMISSION_READY.md` for the most focused Splunk-specific copy.
 
 ### Track
 

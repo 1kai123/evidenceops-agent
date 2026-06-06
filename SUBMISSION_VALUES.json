@@ -13,12 +13,12 @@
   ],
   "priorityHackathons": [
     {
-      "name": "Band of Agents",
-      "positioning": "Multi-agent enterprise incident response workflow with human approval boundaries."
-    },
-    {
       "name": "Splunk Agentic Ops Hackathon",
       "positioning": "Splunk-ready agentic SecOps cockpit using saved searches and MCP-style tool calls."
+    },
+    {
+      "name": "Band of Agents",
+      "positioning": "Multi-agent enterprise incident response workflow with human approval boundaries."
     },
     {
       "name": "FIND EVIL!",
@@ -26,8 +26,8 @@
     }
   ],
   "linksToFillAfterPublish": {
-    "githubRepository": "TODO",
-    "demoUrl": "TODO",
+    "githubRepository": "https://github.com/1kai123/evidenceops-agent",
+    "demoUrl": "https://1kai123.github.io/evidenceops-agent/ after GitHub Pages is enabled and verified",
     "demoVideoUrl": "TODO"
   },
   "recommendedDemoScenario": "OAuth Token Theft",

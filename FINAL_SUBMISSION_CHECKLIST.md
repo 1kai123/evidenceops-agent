@@ -4,7 +4,13 @@ This checklist is ordered by what should be done next.
 
 ## 1. Publish Code
 
-- Create a public GitHub repository named `evidenceops-agent`.
+- Public GitHub repository created:
+
+```text
+https://github.com/1kai123/evidenceops-agent
+```
+
+- Repository name: `evidenceops-agent`.
 - Do not initialize it with README, license, or gitignore because this folder already has those files.
 - Add the remote:
 
@@ -49,8 +55,8 @@ GitHub Pages option:
 
 ## 5. Submission Links to Fill
 
-- GitHub repository: TODO
-- Demo URL: TODO
+- GitHub repository: https://github.com/1kai123/evidenceops-agent
+- Demo URL: https://1kai123.github.io/evidenceops-agent/ after GitHub Pages is enabled and verified
 - Demo video: TODO
 
 ## 6. Files Judges Should Notice
@@ -63,6 +69,7 @@ GitHub Pages option:
 - `DATASET.md`: scenario documentation.
 - `ACCURACY_REPORT.md`: prototype verification and limitations.
 - `DEVPOST_ANSWERS.md`: copy-ready submission answers.
+- `SPLUNK_SUBMISSION_READY.md`: focused Splunk Agentic Ops submission copy.
 - `VIDEO_SHOTLIST.md`: demo recording script.
 
 ## 7. Confirmation-Sensitive Steps
