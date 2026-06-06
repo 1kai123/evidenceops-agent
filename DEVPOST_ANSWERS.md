@@ -94,6 +94,7 @@ Include `ARCHITECTURE.md` in the repository root. The diagram shows Splunk data 
 - Public open-source repository: create GitHub repo and include MIT license.
 - README with run instructions: included.
 - Architecture diagram in repo root: included in `ARCHITECTURE.md`.
+- Splunk integration details: included in `SPLUNK_INTEGRATION.md`.
 
 ## FIND EVIL!
 
@@ -107,9 +108,9 @@ EvidenceOps Agent can be adapted into an "Analyst Training Loop" or "MCP-Connect
 
 ### Gap Before Final Submission
 
-- Add dataset documentation.
-- Add accuracy report.
-- Add structured agent execution logs.
+- Dataset documentation is started in `DATASET.md`.
+- Accuracy report is started in `ACCURACY_REPORT.md`.
+- Structured agent execution logs are mocked in `EXECUTION_LOG_SAMPLE.md`.
 - Add SIFT/Protocol SIFT integration or clearly documented mock integration.
 
 ## Band of Agents

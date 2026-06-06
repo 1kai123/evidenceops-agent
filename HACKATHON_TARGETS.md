@@ -42,7 +42,7 @@ Needs:
 
 Extra improvement before final submission:
 
-- Add one mock SPL query block to README or architecture docs.
+- Use `SPLUNK_INTEGRATION.md` to explain saved searches, SPL inputs, and Splunk MCP mapping.
 
 ## Priority 3: FIND EVIL!
 
@@ -66,6 +66,7 @@ Already prepared:
 - `DATASET.md`
 - `ACCURACY_REPORT.md`
 - `ARCHITECTURE.md`
+- `EXECUTION_LOG_SAMPLE.md`
 
 ## Submission Order
 

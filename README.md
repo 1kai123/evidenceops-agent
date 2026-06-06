@@ -30,6 +30,8 @@ Open `index.html` in a browser.
 
 - Replace mock scenario data with Splunk search results.
 - Add MCP tools for log retrieval and ticket creation.
+- Use `SPLUNK_INTEGRATION.md` as the planned SPL and Splunk MCP mapping.
+- Use `EXECUTION_LOG_SAMPLE.md` as the production audit trail model.
 - Export the incident brief as Markdown, PDF, or Slack/Jira payload.
 - Add a replay mode for judging/demo videos.
 
