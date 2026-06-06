@@ -12,6 +12,7 @@ Checked date: 2026-06-06.
 - Splunk Agentic Ops submission copy prepared in `SPLUNK_SUBMISSION_READY.md`.
 - General Devpost answers prepared in `DEVPOST_ANSWERS.md`.
 - Demo video plan prepared in `VIDEO_SHOTLIST.md`.
+- Full demo narration prepared in `DEMO_NARRATION.md`.
 - Hackathon target priority updated in `HACKATHON_TARGETS.md`.
 
 ## Verified Links

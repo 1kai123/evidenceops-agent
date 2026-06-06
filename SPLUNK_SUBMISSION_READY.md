@@ -65,6 +65,7 @@ HTML, CSS, JavaScript, mock SIEM telemetry, Splunk integration design, agent wor
 - `EXECUTION_LOG_SAMPLE.md`: sample audit trail for agent execution.
 - `DEVPOST_ANSWERS.md`: general copy-ready answers.
 - `VIDEO_SHOTLIST.md`: 2-3 minute demo recording plan.
+- `DEMO_NARRATION.md`: full voiceover, subtitle text, and upload checklist.
 
 ## Demo Video Path
 

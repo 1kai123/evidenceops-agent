@@ -72,6 +72,7 @@ GitHub Pages option:
 - `DEVPOST_ANSWERS.md`: copy-ready submission answers.
 - `SPLUNK_SUBMISSION_READY.md`: focused Splunk Agentic Ops submission copy.
 - `VIDEO_SHOTLIST.md`: demo recording script.
+- `DEMO_NARRATION.md`: full voiceover and upload checklist.
 
 ## 7. Confirmation-Sensitive Steps
 

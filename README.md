@@ -17,6 +17,7 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `DEVPOST_ANSWERS.md`: copy-ready answers for common hackathon forms.
 - `SPLUNK_SUBMISSION_READY.md`: focused Splunk Agentic Ops submission copy.
 - `VIDEO_SHOTLIST.md`: 2-3 minute demo recording script.
+- `DEMO_NARRATION.md`: full demo voiceover, subtitles, and upload checklist.
 - `FINAL_SUBMISSION_CHECKLIST.md`: final publish, deploy, video, and submission checklist.
 
 ## Demo
