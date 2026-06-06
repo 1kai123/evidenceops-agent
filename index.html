@@ -44,6 +44,27 @@
         </article>
       </section>
 
+      <section class="splunk-readiness" aria-label="Splunk readiness">
+        <div>
+          <p class="kicker">Splunk-ready workflow</p>
+          <h2>Saved searches become agent evidence, not black-box answers.</h2>
+        </div>
+        <div class="readiness-grid">
+          <article>
+            <span>Data sources</span>
+            <strong id="sourceCount">--</strong>
+          </article>
+          <article>
+            <span>Tool calls</span>
+            <strong id="toolCount">--</strong>
+          </article>
+          <article>
+            <span>Approval gates</span>
+            <strong id="approvalCount">--</strong>
+          </article>
+        </div>
+      </section>
+
       <section class="workspace">
         <aside class="panel alert-panel">
           <div class="panel-title">
@@ -72,6 +93,10 @@
           <div class="approval-block">
             <h3>Human Approval Queue</h3>
             <div id="approvalQueue" class="approval-queue"></div>
+          </div>
+          <div class="tool-trace-block">
+            <h3>Splunk MCP Tool Trace</h3>
+            <div id="toolTrace" class="tool-trace"></div>
           </div>
           <button class="secondary" id="copyReport">Copy report</button>
           <button class="secondary" id="downloadReport">Download report</button>

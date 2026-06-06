@@ -21,6 +21,8 @@ EvidenceOps Agent uses a coordinated agent workflow:
 
 The current demo includes three replayable scenarios: OAuth token theft, ransomware prelude, and insider exfiltration.
 
+For Splunk Agentic Ops, the UI also exposes how the workflow maps to production telemetry: each scenario shows data source coverage, MCP-style tool calls, and approval gates before containment actions.
+
 ## Why Now
 
 AI agents are becoming practical for security operations, but high-stakes workflows need guardrails. EvidenceOps Agent shows how an agent can move fast while still preserving human control and evidence transparency.
@@ -29,7 +31,7 @@ AI agents are becoming practical for security operations, but high-stakes workfl
 
 - Run the static demo locally or from a deployed URL.
 - Switch between three incident scenarios.
-- Click `Run agent` to generate risk, confidence, reasoning, approvals, and a report.
+- Click `Run agent` to generate risk, confidence, reasoning, Splunk tool traces, approvals, and a report.
 - Inspect the architecture, dataset notes, accuracy notes, Splunk plan, SIFT/DFIR plan, and execution log sample.
 
 ## Hackathon Fit

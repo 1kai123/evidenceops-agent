@@ -13,6 +13,7 @@ Show:
 - The dashboard title.
 - The scenario selector.
 - The score strip.
+- The Splunk-ready workflow strip.
 
 ## 0:15-0:45 Scenario Selection
 
@@ -30,13 +31,14 @@ Show:
 
 Say:
 
-"When I click Run Agent, the workspace scores the incident and explains why. The agent identifies identity compromise, OAuth persistence, and likely exfiltration. Each conclusion is tied to evidence from the timeline."
+"When I click Run Agent, the workspace scores the incident and explains why. The agent identifies identity compromise, OAuth persistence, and likely exfiltration. Each conclusion is tied to evidence from the timeline, and the Splunk MCP tool trace shows which saved searches or tool calls produced the evidence."
 
 Show:
 
 - Click `Run agent`.
 - Highlight the risk score.
 - Highlight the three reasoning cards.
+- Highlight the Splunk MCP Tool Trace cards.
 
 ## 1:20-1:50 Human Approval
 

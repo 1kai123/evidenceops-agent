@@ -32,9 +32,9 @@ EvidenceOps Agent is a Splunk-ready agentic SecOps cockpit. It turns fragmented 
 
 ## What It Does
 
-The demo supports three incident response scenarios: OAuth token theft, ransomware prelude, and insider exfiltration. For each scenario, the agent workflow normalizes alerts, reconstructs the timeline, scores the incident, explains the reasoning, queues high-impact actions for approval, and drafts a response brief.
+The demo supports three incident response scenarios: OAuth token theft, ransomware prelude, and insider exfiltration. For each scenario, the agent workflow normalizes alerts, reconstructs the timeline, scores the incident, explains the reasoning, shows Splunk data source coverage and MCP-style tool calls, queues high-impact actions for approval, and drafts a response brief.
 
-The current prototype uses mock telemetry for judge-friendly replay. In a Splunk deployment, those mock arrays would be replaced with saved searches or Splunk MCP Server calls, as described in `SPLUNK_INTEGRATION.md`.
+The current prototype uses mock telemetry for judge-friendly replay. In a Splunk deployment, those mock arrays would be replaced with saved searches or Splunk MCP Server calls, as described in `SPLUNK_INTEGRATION.md`. The UI intentionally exposes the trace from saved search to evidence to approval gate so judges can inspect the agent workflow instead of trusting a black-box answer.
 
 ## Why It Fits Splunk
 
@@ -51,7 +51,7 @@ EvidenceOps Agent is designed as four coordinated agents:
 - Response Drafter: writes the incident brief and recommended actions.
 - Approval Coordinator: prevents disruptive containment until a human approves.
 
-The prototype uses deterministic logic to make the judging demo inspectable without external credentials. The intended production version swaps the deterministic rules for model-backed reasoning while keeping the same evidence and approval boundaries.
+The prototype uses deterministic logic to make the judging demo inspectable without external credentials. The intended production version swaps the deterministic rules for model-backed reasoning while keeping the same evidence, tool trace, and approval boundaries.
 
 ## Built With
 
@@ -73,8 +73,9 @@ HTML, CSS, JavaScript, mock SIEM telemetry, Splunk integration design, agent wor
 2. Select `OAuth Token Theft`.
 3. Click `Run agent`.
 4. Show the alert feed, evidence timeline, risk score, and reasoning cards.
-5. Approve one Human Approval Queue action.
-6. Show the generated incident brief and explain the Splunk saved-search replacement path.
+5. Show the Splunk-ready workflow strip and MCP-style tool trace.
+6. Approve one Human Approval Queue action.
+7. Show the generated incident brief and explain the Splunk saved-search replacement path.
 
 Keep the video under 3 minutes.
 

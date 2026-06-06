@@ -6,6 +6,7 @@ Use this file to quickly explain why EvidenceOps Agent is worth judging seriousl
 
 - Explainable by default: every score is tied to evidence, not just a model output.
 - Multi-agent structure: collector, assessor, drafter, and approval coordinator have distinct responsibilities.
+- Splunk-readiness is visible in the UI: data source count, tool call count, approval gate count, and MCP-style trace cards.
 - Human approval gate: disruptive response actions are queued for review before execution.
 - Multi-scenario demo: OAuth token theft, ransomware prelude, and insider exfiltration show breadth.
 - Static and portable: judges can open the app without cloud credentials.
@@ -17,9 +18,10 @@ Use this file to quickly explain why EvidenceOps Agent is worth judging seriousl
 2. Select `OAuth Token Theft`.
 3. Click `Run agent`.
 4. Review the critical risk score and evidence timeline.
-5. Approve one item in the Human Approval Queue.
-6. Read the generated incident brief.
-7. Switch to another scenario to show repeatability.
+5. Review the Splunk-ready workflow strip and MCP-style tool trace.
+6. Approve one item in the Human Approval Queue.
+7. Read the generated incident brief.
+8. Switch to another scenario to show repeatability.
 
 ## Best Submission Framing
 
@@ -36,6 +38,7 @@ For FIND EVIL!, call it an evidence-first DFIR assistant with a SIFT/Protocol SI
 - Evidence timeline and alert feed.
 - Risk score and confidence display.
 - Agent reasoning cards.
+- Splunk readiness strip and MCP-style tool trace.
 - Human approval queue.
 - Generated incident brief.
 - Copy and download report actions.

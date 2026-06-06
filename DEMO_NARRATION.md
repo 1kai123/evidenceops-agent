@@ -22,7 +22,7 @@ The demo includes three replayable incidents: OAuth token theft, ransomware prel
 
 ### 0:35-1:10 Run The Agent
 
-When I click Run agent, the workspace correlates alerts from identity, OAuth, endpoint, storage, DLP, and proxy systems. The result is not just a black-box score. The agent builds a timeline, assigns risk and confidence, and explains which evidence supports each conclusion.
+When I click Run agent, the workspace correlates alerts from identity, OAuth, endpoint, storage, DLP, and proxy systems. The result is not just a black-box score. The agent builds a timeline, assigns risk and confidence, explains which evidence supports each conclusion, and shows an MCP-style Splunk tool trace for the saved searches or actions behind the case.
 
 ### 1:10-1:40 Human Approval
 
@@ -34,7 +34,7 @@ The bottom panel generates the incident brief. It summarizes what happened, cite
 
 ### 2:10-2:35 Splunk Integration
 
-The current prototype uses mock telemetry so judges can run it without credentials. In a Splunk deployment, those mock events are replaced with saved searches or Splunk MCP Server calls. Splunk remains the telemetry system of record, while EvidenceOps Agent becomes the analyst cockpit for timeline reconstruction, explainable assessment, and controlled response.
+The current prototype uses mock telemetry so judges can run it without credentials. In a Splunk deployment, those mock events are replaced with saved searches or Splunk MCP Server calls. The visible tool trace shows that path from Splunk search result to agent evidence to human approval. Splunk remains the telemetry system of record, while EvidenceOps Agent becomes the analyst cockpit for timeline reconstruction, explainable assessment, and controlled response.
 
 ### 2:35-2:45 Closing
 
@@ -47,11 +47,12 @@ The key idea is fast agentic response with evidence and human control. EvidenceO
 3. Click `Run agent`.
 4. Pause on the risk score and confidence.
 5. Point to the evidence timeline.
-6. Point to the agent reasoning cards.
-7. Click one `Mark approved` action.
-8. Show the generated incident brief.
-9. Mention `Copy report` and `Download report`.
-10. Briefly switch to another scenario to show repeatability.
+6. Point to the Splunk-ready workflow strip.
+7. Point to the agent reasoning and MCP tool trace cards.
+8. Click one `Mark approved` action.
+9. Show the generated incident brief.
+10. Mention `Copy report` and `Download report`.
+11. Briefly switch to another scenario to show repeatability.
 
 ## Subtitle Text
 
@@ -59,7 +60,7 @@ EvidenceOps Agent turns fragmented security alerts into an explainable response 
 
 It correlates identity, OAuth, endpoint, storage, DLP, and proxy signals into one incident timeline.
 
-The agent scores the incident and explains which evidence supports each conclusion.
+The agent scores the incident and explains which evidence and Splunk-style tool calls support each conclusion.
 
 High-impact containment actions are queued for human approval before execution.
 
@@ -73,6 +74,7 @@ In production, mock telemetry can be replaced with Splunk saved searches or Splu
 - Repository URL is visible or included in the video description.
 - Demo URL is visible or included in the video description: `https://1kai123.github.io/evidenceops-agent/`.
 - The video shows `Run agent`.
+- The video shows the Splunk-ready workflow strip and MCP tool trace.
 - The video shows at least one approval action.
 - The video shows the generated incident brief.
 - The description includes: `Built with HTML, CSS, JavaScript, mock SIEM telemetry, Splunk integration design, and agent workflow design.`

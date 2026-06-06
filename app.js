@@ -85,6 +85,24 @@ const scenarios = [
         detail: "Block the suspicious desktop client until ownership is verified.",
       },
     ],
+    splunkSources: ["identity", "cloud oauth", "storage", "endpoint"],
+    toolTrace: [
+      {
+        tool: "saved_search",
+        input: "identity_impossible_travel_by_user",
+        output: "Belgrade login 11 minutes after Chicago session",
+      },
+      {
+        tool: "splunk_search",
+        input: "index=cloud sourcetype=oauth scope=offline_access",
+        output: "New OAuth grant with refresh token replay",
+      },
+      {
+        tool: "notable_events",
+        input: "finance-admin risk modifiers",
+        output: "MFA fatigue, unmanaged ASN, large export",
+      },
+    ],
     response: [
       "Revoke finance-admin refresh token families and active sessions.",
       "Disable the suspicious OAuth client grant.",
@@ -168,6 +186,24 @@ const scenarios = [
       {
         title: "Freeze file server writes",
         detail: "Temporarily block write access for the suspicious session scope.",
+      },
+    ],
+    splunkSources: ["backup", "endpoint", "directory", "file server"],
+    toolTrace: [
+      {
+        tool: "saved_search",
+        input: "backup_catalog_enumeration",
+        output: "41x query increase outside normal window",
+      },
+      {
+        tool: "splunk_search",
+        input: "index=endpoint process_name=powershell.exe rename",
+        output: "Mass rename rehearsal across shared files",
+      },
+      {
+        tool: "notable_events",
+        input: "contractor-ops account risk",
+        output: "Dormant account, temporary admin, backup roles",
       },
     ],
     response: [
@@ -255,6 +291,24 @@ const scenarios = [
         detail: "Preserve repository, proxy, and endpoint evidence for HR/legal review.",
       },
     ],
+    splunkSources: ["developer", "dlp", "proxy", "endpoint"],
+    toolTrace: [
+      {
+        tool: "saved_search",
+        input: "developer_repo_clone_baseline",
+        output: "Repository reads exceeded baseline by 9.4x",
+      },
+      {
+        tool: "splunk_search",
+        input: "index=proxy blocked_category=file_sharing",
+        output: "Blocked upload retried through new domain",
+      },
+      {
+        tool: "create_ticket",
+        input: "legal_hold_after_approval",
+        output: "Ticket is queued until human approval",
+      },
+    ],
     response: [
       "Disable external upload destinations for the user and device.",
       "Preserve repository access logs and endpoint archive metadata.",
@@ -271,6 +325,7 @@ const alertFeed = document.querySelector("#alertFeed");
 const timeline = document.querySelector("#timeline");
 const agentOutput = document.querySelector("#agentOutput");
 const approvalQueue = document.querySelector("#approvalQueue");
+const toolTrace = document.querySelector("#toolTrace");
 const reportText = document.querySelector("#reportText");
 const briefStatus = document.querySelector("#briefStatus");
 const scenarioSelect = document.querySelector("#scenarioSelect");
@@ -327,11 +382,16 @@ function renderScenario() {
     "<p>Run the agent to score this incident and draft a response brief.</p>";
   approvalQueue.innerHTML =
     "<p class=\"muted-note\">Approval actions appear after the agent completes analysis.</p>";
+  toolTrace.innerHTML =
+    "<p class=\"muted-note\">Splunk tool calls appear after the agent completes analysis.</p>";
 
   document.querySelector("#riskScore").textContent = currentScenario.riskSeed;
   document.querySelector("#confidence").textContent = "pending";
   document.querySelector("#evidenceCount").textContent = currentScenario.events.length;
   document.querySelector("#eta").textContent = currentScenario.eta;
+  document.querySelector("#sourceCount").textContent = currentScenario.splunkSources.length;
+  document.querySelector("#toolCount").textContent = currentScenario.toolTrace.length;
+  document.querySelector("#approvalCount").textContent = currentScenario.approvals.length;
   briefStatus.textContent = "scenario loaded";
   reportText.textContent = "Run the agent to generate the incident brief.";
 }
@@ -343,6 +403,9 @@ function buildReport(score) {
   const evidence = currentScenario.events
     .map((event) => `- ${event.time}: ${event.title} - ${event.body}`)
     .join("\n");
+  const toolCalls = currentScenario.toolTrace
+    .map((call) => `- ${call.tool}: ${call.input} -> ${call.output}`)
+    .join("\n");
 
   return `Incident: ${currentScenario.name}
 Severity: ${score >= 85 ? "Critical" : "High"}
@@ -353,6 +416,11 @@ ${currentScenario.summary}
 
 Evidence timeline:
 ${evidence}
+
+Splunk readiness:
+Data sources: ${currentScenario.splunkSources.join(", ")}
+Tool trace:
+${toolCalls}
 
 Recommended response:
 ${responseSteps}
@@ -378,6 +446,20 @@ function renderApprovals() {
     .join("");
 }
 
+function renderToolTrace() {
+  toolTrace.innerHTML = currentScenario.toolTrace
+    .map(
+      (call) => `
+        <article class="tool-call">
+          <strong>${escapeHtml(call.tool)}</strong>
+          <p>${escapeHtml(call.input)}</p>
+          <small>${escapeHtml(call.output)}</small>
+        </article>
+      `,
+    )
+    .join("");
+}
+
 function runAgent() {
   const totalScore = currentScenario.rules.reduce((sum, rule) => sum + rule.score, 0);
   const score = Math.min(totalScore, 99);
@@ -397,6 +479,7 @@ function runAgent() {
     .join("");
 
   renderApprovals();
+  renderToolTrace();
   reportText.textContent = buildReport(score);
   briefStatus.textContent = "ready";
 }

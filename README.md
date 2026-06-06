@@ -27,13 +27,14 @@ Open `index.html` in a browser.
 1. Click the reload icon to load the sample incident.
 2. Pick one of the incident scenarios: OAuth token theft, ransomware prelude, or insider exfiltration.
 3. Click `Run agent`.
-4. Review the risk score, evidence timeline, reasoning cards, approval queue, and incident brief.
+4. Review the risk score, evidence timeline, Splunk readiness strip, reasoning cards, MCP-style tool trace, approval queue, and incident brief.
 5. Use `Copy report` or `Download report` for the submission narrative.
 
 ## What It Shows
 
 - Multi-source alert correlation across identity, OAuth, endpoint, storage, backup, developer, DLP, and proxy signals.
 - Evidence-linked explanation instead of a black-box risk score.
+- Splunk-ready saved search and MCP-style tool trace outputs for each incident.
 - Human approval checkpoint before taking disruptive actions such as token revocation.
 - Multi-scenario replay for judging and demo videos.
 - A reusable UI that can later connect to Splunk, SIEM data, or MCP tools.
