@@ -63,7 +63,7 @@ https://github.com/1kai123/evidenceops-agent
 
 ### Demo URL
 
-https://1kai123.github.io/evidenceops-agent/ after GitHub Pages is enabled and verified.
+https://1kai123.github.io/evidenceops-agent/
 
 ### Demo Video URL
 

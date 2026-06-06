@@ -9,6 +9,7 @@ Checked date: 2026-06-06.
 - Updated zip package: `C:\Users\ZMC\Desktop\TEST\evidenceops-agent.zip`.
 - Public GitHub repository created: https://github.com/1kai123/evidenceops-agent
 - Local code pushed to GitHub `main`.
+- GitHub Pages enabled and verified.
 - Splunk Agentic Ops submission copy prepared in `SPLUNK_SUBMISSION_READY.md`.
 - General Devpost answers prepared in `DEVPOST_ANSWERS.md`.
 - Demo video plan prepared in `VIDEO_SHOTLIST.md`.
@@ -18,9 +19,9 @@ Checked date: 2026-06-06.
 ## Verified Links
 
 - Repository: https://github.com/1kai123/evidenceops-agent
-- Expected GitHub Pages demo: https://1kai123.github.io/evidenceops-agent/
+- GitHub Pages demo: https://1kai123.github.io/evidenceops-agent/
 
-Current demo status: GitHub Pages returns 404 until Pages is enabled in repository settings.
+Current demo status: verified HTTP 200 and page content includes `EvidenceOps Agent`, `Run agent`, and `Human Approval Queue`.
 
 ## Highest-Priority Submission
 
@@ -36,16 +37,14 @@ Splunk Agentic Ops Hackathon.
 
 The following actions create external side effects and should be confirmed before execution:
 
-- Enable GitHub Pages for the public repository.
 - Upload or publish a demo video.
 - Register for a hackathon account if a new account is required.
 - Press the final Devpost/lablab submit button.
 
 ## Next Actions
 
-1. Enable GitHub Pages in repository settings.
-2. Verify `https://1kai123.github.io/evidenceops-agent/` returns HTTP 200 and renders the demo.
-3. Replace the "after GitHub Pages is enabled and verified" notes in submission files with the verified demo URL.
-4. Record the demo video using `VIDEO_SHOTLIST.md`.
-5. Submit Splunk Agentic Ops first.
-6. Register for Band of Agents when registration opens.
+1. Record the demo video using `VIDEO_SHOTLIST.md` and `DEMO_NARRATION.md`.
+2. Upload or publish the demo video.
+3. Add the demo video URL to submission files.
+4. Submit Splunk Agentic Ops first.
+5. Register for Band of Agents when registration opens.

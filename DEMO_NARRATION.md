@@ -4,7 +4,7 @@ Use this script for a 2-3 minute public demo video. The best first submission ta
 
 ## Recording Setup
 
-- Open the deployed demo URL after GitHub Pages is enabled.
+- Open the deployed demo URL: `https://1kai123.github.io/evidenceops-agent/`.
 - Use a 16:9 browser window.
 - Start on the default dashboard.
 - Recommended scenario: `OAuth Token Theft`.
@@ -71,7 +71,7 @@ In production, mock telemetry can be replaced with Splunk saved searches or Splu
 
 - Video length is under 3 minutes.
 - Repository URL is visible or included in the video description.
-- Demo URL is visible or included in the video description after Pages is enabled.
+- Demo URL is visible or included in the video description: `https://1kai123.github.io/evidenceops-agent/`.
 - The video shows `Run agent`.
 - The video shows at least one approval action.
 - The video shows the generated incident brief.
