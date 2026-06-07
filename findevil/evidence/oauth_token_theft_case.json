@@ -1,0 +1,49 @@
+{
+  "case_id": "fe-oauth-001",
+  "title": "OAuth token theft against finance-admin",
+  "evidence": [
+    {
+      "id": "EV-001",
+      "type": "identity",
+      "time": "2026-06-07T09:12:00Z",
+      "artifact": "identity_log",
+      "detail": "Six MFA push prompts were sent to finance-admin in 94 seconds. The final prompt was accepted."
+    },
+    {
+      "id": "EV-002",
+      "type": "identity",
+      "time": "2026-06-07T09:17:00Z",
+      "artifact": "identity_log",
+      "detail": "Belgrade login occurred 11 minutes after a Chicago session for the same account."
+    },
+    {
+      "id": "EV-003",
+      "type": "oauth",
+      "time": "2026-06-07T09:18:00Z",
+      "artifact": "oauth_audit",
+      "detail": "New desktop client grant requested mail.read, files.read, and offline_access scopes."
+    },
+    {
+      "id": "EV-004",
+      "type": "oauth",
+      "time": "2026-06-07T09:24:00Z",
+      "artifact": "oauth_audit",
+      "detail": "Refresh token family reused from AS58224 with no enrolled device record."
+    },
+    {
+      "id": "EV-005",
+      "type": "storage",
+      "time": "2026-06-07T09:38:00Z",
+      "artifact": "cloud_storage_log",
+      "detail": "A 1.8 GB payroll archive was downloaded through the suspicious OAuth grant.",
+      "external_destination_confirmed": false
+    },
+    {
+      "id": "EV-006",
+      "type": "endpoint",
+      "time": "2026-06-07T09:40:00Z",
+      "artifact": "endpoint_process_log",
+      "detail": "PowerShell child process touched browser credential cache metadata on finance-endpoint-12."
+    }
+  ]
+}

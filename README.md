@@ -22,6 +22,11 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `GOOGLE_CLOUD_RAPID_AGENT_EDITION.md`: fast pivot pack for Google Cloud Rapid Agent Hackathon.
 - `google-cloud/`: Agent Builder flow, Gemini prompt contract, and partner MCP mapping.
 - `FEEDBACK_PRIZE_ATTEMPT.md`: Splunk feedback prize attempt and prepared feedback themes.
+- `FINDEVIL_SUBMISSION_READY.md`: FIND EVIL copy, run instructions, and judging emphasis.
+- `FINDEVIL_EVIDENCE_DATASET.md`: FIND EVIL evidence dataset documentation.
+- `FINDEVIL_ACCURACY_REPORT.md`: FIND EVIL accuracy and self-correction report.
+- `FINDEVIL_VIDEO_SCRIPT.md`: terminal demo script for the required video.
+- `findevil/`: terminal-running incident response agent and sample evidence.
 - `PRIZE_CLAIM_GUIDE_CN.md`: Chinese checklist for prize claiming, W-8BEN, and payment preparation.
 - `VIDEO_SHOTLIST.md`: 2-3 minute demo recording script.
 - `DEMO_NARRATION.md`: full demo voiceover, subtitles, and upload checklist.
@@ -44,6 +49,7 @@ Open `index.html` in a browser.
 - Splunk-ready saved search and MCP-style tool trace outputs for each incident.
 - Judge proof pack that maps the static demo to Splunk MCP Server, saved searches, and Splunk Developer Tools.
 - Google Cloud Rapid Agent edition that maps the same product to Gemini, Agent Builder flow orchestration, and partner MCP retrieval.
+- FIND EVIL terminal edition with evidence IDs, execution log, and self-correction.
 - Human approval checkpoint before taking disruptive actions such as token revocation.
 - Multi-scenario replay for judging and demo videos.
 - A reusable UI that can later connect to Splunk, SIEM data, or MCP tools.

@@ -1,0 +1,73 @@
+[
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "load_case",
+    "input": "fe-oauth-001",
+    "output": "Loaded 6 evidence artifacts for OAuth token theft against finance-admin.",
+    "evidence_ids": [
+      "EV-001",
+      "EV-002",
+      "EV-003",
+      "EV-004",
+      "EV-005",
+      "EV-006"
+    ]
+  },
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "analyze_identity",
+    "input": "identity artifacts",
+    "output": "Detected MFA fatigue followed by impossible travel.",
+    "evidence_ids": [
+      "EV-001",
+      "EV-002"
+    ]
+  },
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "analyze_oauth",
+    "input": "oauth artifacts",
+    "output": "Found suspicious offline_access grant and token replay.",
+    "evidence_ids": [
+      "EV-003",
+      "EV-004"
+    ]
+  },
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "validate_storage_claim",
+    "input": "confirmed exfiltration",
+    "output": "Validated storage evidence and reported likely data exfiltration.",
+    "evidence_ids": [
+      "EV-005"
+    ],
+    "correction": {
+      "before": "confirmed exfiltration",
+      "after": "likely exfiltration",
+      "reason": "Archive export is proven, but no artifact confirms the external destination."
+    }
+  },
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "analyze_endpoint",
+    "input": "endpoint artifacts",
+    "output": "Endpoint signal supports triage but not standalone attribution.",
+    "evidence_ids": [
+      "EV-006"
+    ]
+  },
+  {
+    "time": "2026-06-07T14:20:29Z",
+    "tool": "build_incident_brief",
+    "input": "validated findings",
+    "output": "Generated incident brief with risk 82 and 3 approval-gated actions.",
+    "evidence_ids": [
+      "EV-001",
+      "EV-002",
+      "EV-003",
+      "EV-004",
+      "EV-005",
+      "EV-006"
+    ]
+  }
+]
