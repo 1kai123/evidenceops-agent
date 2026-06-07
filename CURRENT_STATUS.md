@@ -12,7 +12,7 @@ Checked date: 2026-06-06.
 - GitHub Pages enabled and verified.
 - Splunk Agentic Ops submission copy prepared in `SPLUNK_SUBMISSION_READY.md`.
 - General Devpost answers prepared in `DEVPOST_ANSWERS.md`.
-- Demo video plan prepared in `VIDEO_SHOTLIST.md`.
+- Demo video uploaded as an unlisted YouTube video: https://youtu.be/9U1Q8vSjjBw
 - Full demo narration prepared in `DEMO_NARRATION.md`.
 - Hackathon target priority updated in `HACKATHON_TARGETS.md`.
 
@@ -37,14 +37,14 @@ Splunk Agentic Ops Hackathon.
 
 The following actions create external side effects and should be confirmed before execution:
 
-- Upload or publish a demo video.
+- Demo video published as an unlisted YouTube link.
 - Register for a hackathon account if a new account is required.
 - Press the final Devpost/lablab submit button.
 
 ## Next Actions
 
-1. Record the demo video using `VIDEO_SHOTLIST.md` and `DEMO_NARRATION.md`.
-2. Upload or publish the demo video.
-3. Add the demo video URL to submission files.
+1. Complete the Devpost additional-info form.
+2. Run final Devpost submit.
+3. Verify the submitted project page.
 4. Submit Splunk Agentic Ops first.
 5. Register for Band of Agents when registration opens.

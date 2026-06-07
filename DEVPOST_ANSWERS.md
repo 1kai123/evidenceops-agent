@@ -67,7 +67,7 @@ https://1kai123.github.io/evidenceops-agent/
 
 ### Demo Video URL
 
-TODO: Add YouTube, Vimeo, or Youku URL after recording.
+https://youtu.be/9U1Q8vSjjBw
 
 ## Splunk Agentic Ops Hackathon
 

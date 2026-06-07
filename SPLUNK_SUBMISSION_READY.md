@@ -16,7 +16,7 @@ Checked date: 2026-06-06.
 
 - Repository: https://github.com/1kai123/evidenceops-agent
 - Demo URL: https://1kai123.github.io/evidenceops-agent/
-- Demo video: TODO
+- Demo video: https://youtu.be/9U1Q8vSjjBw
 
 ## Project Name
 
@@ -83,6 +83,6 @@ Keep the video under 3 minutes.
 
 - Verify repository is public.
 - Verify GitHub Pages or Netlify demo returns HTTP 200.
-- Record and upload the demo video.
-- Replace the Demo video TODO above.
+- Demo video uploaded and set to unlisted.
+- Demo video URL inserted into the submission materials.
 - Confirm before pressing the final Devpost submit button.
