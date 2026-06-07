@@ -15,11 +15,14 @@ Checked date: 2026-06-06.
 - Demo video uploaded as an unlisted YouTube video: https://youtu.be/9U1Q8vSjjBw
 - Full demo narration prepared in `DEMO_NARRATION.md`.
 - Hackathon target priority updated in `HACKATHON_TARGETS.md`.
+- Devpost submission completed and verified: https://devpost.com/software/evidenceops-agent
 
 ## Verified Links
 
 - Repository: https://github.com/1kai123/evidenceops-agent
 - GitHub Pages demo: https://1kai123.github.io/evidenceops-agent/
+- Devpost submission: https://devpost.com/software/evidenceops-agent
+- Demo video: https://youtu.be/9U1Q8vSjjBw
 
 Current demo status: verified HTTP 200 and page content includes `EvidenceOps Agent`, `Run agent`, and `Human Approval Queue`.
 
@@ -33,18 +36,15 @@ Splunk Agentic Ops Hackathon.
 - Recommended track: Security.
 - Best copy source: `SPLUNK_SUBMISSION_READY.md`.
 
-## Needs User Confirmation
+## Current External Status
 
-The following actions create external side effects and should be confirmed before execution:
-
-- Demo video published as an unlisted YouTube link.
-- Register for a hackathon account if a new account is required.
-- Press the final Devpost/lablab submit button.
+- Splunk Agentic Ops registration: completed.
+- Devpost final submit: completed.
+- Public project page: verified.
+- Embedded demo video: verified as YouTube `9U1Q8vSjjBw`.
 
 ## Next Actions
 
-1. Complete the Devpost additional-info form.
-2. Run final Devpost submit.
-3. Verify the submitted project page.
-4. Submit Splunk Agentic Ops first.
-5. Register for Band of Agents when registration opens.
+1. Keep GitHub Pages and the YouTube demo available through judging.
+2. Monitor Devpost notifications and hackathon updates.
+3. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.

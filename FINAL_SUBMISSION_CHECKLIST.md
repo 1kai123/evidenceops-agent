@@ -58,6 +58,7 @@ GitHub Pages option:
 - GitHub repository: https://github.com/1kai123/evidenceops-agent
 - Demo URL: https://1kai123.github.io/evidenceops-agent/
 - Demo video: https://youtu.be/9U1Q8vSjjBw
+- Devpost submission: https://devpost.com/software/evidenceops-agent
 
 ## 6. Files Judges Should Notice
 
@@ -74,12 +75,10 @@ GitHub Pages option:
 - `VIDEO_SHOTLIST.md`: demo recording script.
 - `DEMO_NARRATION.md`: full voiceover and upload checklist.
 
-## 7. Confirmation-Sensitive Steps
+## 7. Submitted Status
 
-The following actions create external side effects and should be confirmed before execution:
-
-- Creating a GitHub repository.
-- Publishing code publicly.
-- Creating or submitting hackathon accounts.
-- Submitting Devpost/lablab forms.
-- Uploading demo videos.
+- [x] GitHub repository published.
+- [x] GitHub Pages demo verified.
+- [x] Under-3-minute YouTube demo uploaded and embedded.
+- [x] Splunk Agentic Ops Devpost form submitted.
+- [x] Submitted project page verified.
