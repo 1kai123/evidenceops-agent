@@ -31,6 +31,13 @@ python .\agent.py .\evidence\oauth_token_theft_case.json --log .\execution_log_s
 - Live demo: https://1kai123.github.io/evidenceops-agent/
 - Repository: https://github.com/1kai123/evidenceops-agent
 - Demo video: https://youtu.be/9U1Q8vSjjBw
+- Devpost submission: https://devpost.com/software/evidenceops-agent
+
+## Submission Status
+
+- Registered for FIND EVIL!.
+- Submitted on Devpost.
+- Current video risk: the video is the existing UI demo. FIND EVIL asks for a live terminal execution screencast with audio narration and at least one self-correction sequence. Replace the video before the deadline for stronger eligibility and judging fit.
 
 ## What To Emphasize
 

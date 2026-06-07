@@ -1,6 +1,6 @@
 # Current Submission Status
 
-Checked date: 2026-06-06.
+Checked date: 2026-06-07.
 
 ## Completed
 
@@ -45,11 +45,14 @@ Splunk Agentic Ops Hackathon.
 - Embedded demo video: verified as YouTube `9U1Q8vSjjBw`.
 - Judge Proof Pack: verified on GitHub Pages and Devpost story.
 - Splunk feedback prize path: feedback drafted and attempted, but no confirmed Google Forms receipt was shown. See `FEEDBACK_PRIZE_ATTEMPT.md`.
-- Second cash-prize target selected: FIND EVIL!. Google Cloud Rapid Agent was reviewed but is not recommended if the entrant is a China resident. See `SECOND_HACKATHON_TARGET.md`.
+- Second cash-prize target selected and submitted: FIND EVIL!. Google Cloud Rapid Agent was reviewed but is not recommended if the entrant is a China resident. See `SECOND_HACKATHON_TARGET.md`.
+- FIND EVIL registration: completed.
+- FIND EVIL submission: completed and verified on Devpost public page.
+- FIND EVIL risk: current video URL is the existing UI demo. The rules ask for a live terminal execution screencast with self-correction, so replacing the video before the Jun 15, 2026 deadline is the highest-impact remaining improvement.
 
 ## Next Actions
 
 1. Keep GitHub Pages and the YouTube demo available through judging.
-2. Build a FIND EVIL terminal-agent evidence pack for a second submission before Jun 15, 2026.
+2. Record and upload a FIND EVIL terminal screencast using `FINDEVIL_VIDEO_SCRIPT.md`, then replace the video URL on Devpost.
 3. Monitor Devpost notifications and hackathon updates.
 4. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.

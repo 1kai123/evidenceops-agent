@@ -29,6 +29,13 @@ This target is still competitive, but it rewards exactly the traits EvidenceOps 
 3. Add a FIND EVIL submission pack with run instructions, evidence documentation, and accuracy notes.
 4. Register on Devpost and submit before Jun 15, 2026 at 11:45 PM EDT.
 
+## Current Status
+
+- Registration: completed.
+- Submission: completed.
+- Public Devpost page: https://devpost.com/software/evidenceops-agent
+- Highest-impact remaining improvement: replace the existing UI demo video with a terminal screencast that follows `FINDEVIL_VIDEO_SCRIPT.md`.
+
 ## Not Recommended If China Resident
 
 Google Cloud Rapid Agent Hackathon
