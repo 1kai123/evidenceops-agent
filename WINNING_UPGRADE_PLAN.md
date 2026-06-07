@@ -24,10 +24,11 @@ Next best upgrade:
 
 Current state: usable analyst cockpit with alert feed, timeline, reasoning, approval queue, tool trace, and report.
 
-Next best upgrade:
+Completed upgrade:
 
-- Add a judge proof pack section to the live demo so judges see the repository evidence without digging.
-- Keep the demo dense and operational, not marketing-heavy.
+- Added a judge proof pack section to the live demo so judges see the repository evidence without digging.
+- Updated the Devpost story to mention the Splunk evidence pack.
+- Kept the demo dense and operational, not marketing-heavy.
 
 ### Potential Impact
 
@@ -61,6 +62,6 @@ Weakest path right now. The project does not actually use Splunk-hosted models. 
 
 ## Immediate Devpost Update Copy
 
-Add this sentence to the project story if editing before the deadline:
+Added this idea to the Devpost project story:
 
 > After submission, I added a judge-facing Splunk evidence pack with saved search prototypes, an MCP tool manifest, a mock MCP trace, and an AppInspect checklist so reviewers can see exactly how the static demo maps to a production Splunk agent workflow.

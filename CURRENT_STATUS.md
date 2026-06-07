@@ -16,6 +16,7 @@ Checked date: 2026-06-06.
 - Full demo narration prepared in `DEMO_NARRATION.md`.
 - Hackathon target priority updated in `HACKATHON_TARGETS.md`.
 - Devpost submission completed and verified: https://devpost.com/software/evidenceops-agent
+- Post-submission award-strengthening update completed: live demo now includes a Judge Proof Pack and Devpost story mentions the Splunk MCP evidence pack.
 
 ## Verified Links
 
@@ -42,6 +43,7 @@ Splunk Agentic Ops Hackathon.
 - Devpost final submit: completed.
 - Public project page: verified.
 - Embedded demo video: verified as YouTube `9U1Q8vSjjBw`.
+- Judge Proof Pack: verified on GitHub Pages and Devpost story.
 
 ## Next Actions
 
