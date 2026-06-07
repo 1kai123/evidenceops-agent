@@ -1,0 +1,51 @@
+{
+  "case_id": "EOA-2026-0607-OAUTH",
+  "scenario": "OAuth Token Theft",
+  "trace": [
+    {
+      "step": 1,
+      "agent": "Evidence Collector",
+      "tool": "search",
+      "input": {
+        "saved_search": "EvidenceOps - OAuth token theft evidence",
+        "user": "finance-admin",
+        "earliest": "-24h"
+      },
+      "output_summary": "9 timeline events from identity, OAuth, storage, and endpoint sources",
+      "splunk_sid": "mock_sid_1749480001"
+    },
+    {
+      "step": 2,
+      "agent": "Threat Assessor",
+      "tool": "get_notable_events",
+      "input": {
+        "user": "finance-admin",
+        "asset": "payroll-share"
+      },
+      "output_summary": "Privilege escalation and unusual OAuth grant notable events found",
+      "splunk_sid": "mock_sid_1749480022"
+    },
+    {
+      "step": 3,
+      "agent": "Response Drafter",
+      "tool": "search",
+      "input": {
+        "saved_search": "EvidenceOps - affected token families",
+        "user": "finance-admin"
+      },
+      "output_summary": "2 token families and 1 suspicious OAuth client identified",
+      "splunk_sid": "mock_sid_1749480048"
+    },
+    {
+      "step": 4,
+      "agent": "Approval Coordinator",
+      "tool": "create_ticket",
+      "input": {
+        "action": "revoke token family and disable OAuth client",
+        "approval_state": "queued"
+      },
+      "output_summary": "Ticket creation withheld until human approval",
+      "splunk_sid": null
+    }
+  ]
+}

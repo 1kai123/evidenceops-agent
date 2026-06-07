@@ -1,0 +1,40 @@
+{
+  "name": "evidenceops-splunk-mcp-tools",
+  "purpose": "Judge-facing mapping from EvidenceOps Agent actions to Splunk MCP Server style tool calls.",
+  "official_alignment": {
+    "splunk_mcp_docs": "https://help.splunk.com/en/splunk-cloud-platform/mcp-server-for-splunk-platform/1.2/about-mcp-server-for-splunk-platform",
+    "splunk_ai_toolkit": "https://www.splunk.com/en_us/products/ai-toolkit.html"
+  },
+  "tools": [
+    {
+      "tool": "search",
+      "evidenceops_step": "Evidence Collector",
+      "allowed_inputs": ["saved search name", "time window", "case user", "case host"],
+      "guardrail": "Only approved saved searches are callable from the analyst workspace."
+    },
+    {
+      "tool": "list_indexes",
+      "evidenceops_step": "Source Coverage",
+      "allowed_inputs": ["incident type"],
+      "guardrail": "Used to explain missing telemetry before risk scoring."
+    },
+    {
+      "tool": "get_notable_events",
+      "evidenceops_step": "Threat Assessor",
+      "allowed_inputs": ["case id", "user", "asset"],
+      "guardrail": "Read-only enrichment for Splunk Enterprise Security notable events."
+    },
+    {
+      "tool": "create_ticket",
+      "evidenceops_step": "Approval Coordinator",
+      "allowed_inputs": ["approved action", "incident brief", "analyst id"],
+      "guardrail": "Disabled until the human approval queue records an explicit approval."
+    }
+  ],
+  "audit_policy": {
+    "log_every_tool_call": true,
+    "store_input_hash": true,
+    "store_splunk_sid": true,
+    "require_human_approval_for_containment": true
+  }
+}

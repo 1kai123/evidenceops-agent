@@ -210,6 +210,47 @@ h2 {
   font-size: 30px;
 }
 
+.proof-pack {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) minmax(360px, 1.6fr);
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+  border: 2px solid var(--ink);
+  background: #fff;
+  padding: 16px;
+  box-shadow: 5px 5px 0 var(--green);
+}
+
+.proof-pack h2 {
+  max-width: 700px;
+  font-size: clamp(21px, 2.6vw, 34px);
+  line-height: 1.05;
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.proof-grid a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62px;
+  border: 1px solid var(--ink);
+  background: #f8fbff;
+  color: var(--ink);
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .workspace {
   display: grid;
   grid-template-columns: 310px minmax(380px, 1fr) 360px;
@@ -502,7 +543,15 @@ pre {
     grid-template-columns: 1fr;
   }
 
+  .proof-pack {
+    grid-template-columns: 1fr;
+  }
+
   .readiness-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-grid {
     grid-template-columns: 1fr;
   }
 }

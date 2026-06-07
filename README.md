@@ -16,6 +16,9 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `SUBMISSION_RISKS.md`: risks that can weaken the submission and how to mitigate them.
 - `DEVPOST_ANSWERS.md`: copy-ready answers for common hackathon forms.
 - `SPLUNK_SUBMISSION_READY.md`: focused Splunk Agentic Ops submission copy.
+- `SPLUNK_MCP_EVIDENCE_PACK.md`: judge-facing Splunk MCP and AI Toolkit alignment.
+- `splunk/`: saved searches, MCP tool manifest, mock trace, and AppInspect checklist.
+- `PRIZE_CLAIM_GUIDE_CN.md`: Chinese checklist for prize claiming, W-8BEN, and payment preparation.
 - `VIDEO_SHOTLIST.md`: 2-3 minute demo recording script.
 - `DEMO_NARRATION.md`: full demo voiceover, subtitles, and upload checklist.
 - `FINAL_SUBMISSION_CHECKLIST.md`: final publish, deploy, video, and submission checklist.
@@ -35,6 +38,7 @@ Open `index.html` in a browser.
 - Multi-source alert correlation across identity, OAuth, endpoint, storage, backup, developer, DLP, and proxy signals.
 - Evidence-linked explanation instead of a black-box risk score.
 - Splunk-ready saved search and MCP-style tool trace outputs for each incident.
+- Judge proof pack that maps the static demo to Splunk MCP Server, saved searches, and Splunk Developer Tools.
 - Human approval checkpoint before taking disruptive actions such as token revocation.
 - Multi-scenario replay for judging and demo videos.
 - A reusable UI that can later connect to Splunk, SIEM data, or MCP tools.
