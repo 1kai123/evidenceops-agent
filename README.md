@@ -18,6 +18,10 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `SPLUNK_SUBMISSION_READY.md`: focused Splunk Agentic Ops submission copy.
 - `SPLUNK_MCP_EVIDENCE_PACK.md`: judge-facing Splunk MCP and AI Toolkit alignment.
 - `splunk/`: saved searches, MCP tool manifest, mock trace, and AppInspect checklist.
+- `SECOND_HACKATHON_TARGET.md`: selected second cash-prize target and backup target.
+- `GOOGLE_CLOUD_RAPID_AGENT_EDITION.md`: fast pivot pack for Google Cloud Rapid Agent Hackathon.
+- `google-cloud/`: Agent Builder flow, Gemini prompt contract, and partner MCP mapping.
+- `FEEDBACK_PRIZE_ATTEMPT.md`: Splunk feedback prize attempt and prepared feedback themes.
 - `PRIZE_CLAIM_GUIDE_CN.md`: Chinese checklist for prize claiming, W-8BEN, and payment preparation.
 - `VIDEO_SHOTLIST.md`: 2-3 minute demo recording script.
 - `DEMO_NARRATION.md`: full demo voiceover, subtitles, and upload checklist.
@@ -39,6 +43,7 @@ Open `index.html` in a browser.
 - Evidence-linked explanation instead of a black-box risk score.
 - Splunk-ready saved search and MCP-style tool trace outputs for each incident.
 - Judge proof pack that maps the static demo to Splunk MCP Server, saved searches, and Splunk Developer Tools.
+- Google Cloud Rapid Agent edition that maps the same product to Gemini, Agent Builder flow orchestration, and partner MCP retrieval.
 - Human approval checkpoint before taking disruptive actions such as token revocation.
 - Multi-scenario replay for judging and demo videos.
 - A reusable UI that can later connect to Splunk, SIEM data, or MCP tools.

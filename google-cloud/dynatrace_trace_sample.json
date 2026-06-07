@@ -1,0 +1,48 @@
+{
+  "trace_id": "dt-trace-oauth-token-theft-001",
+  "time_window": "2026-06-07T09:12:00Z/2026-06-07T09:42:00Z",
+  "entities": [
+    {
+      "entity_id": "SERVICE-CLOUD-AUTH",
+      "name": "cloud-auth-gateway",
+      "signal": "refresh token replay spike",
+      "severity": "critical"
+    },
+    {
+      "entity_id": "HOST-FINANCE-ENDPOINT-12",
+      "name": "finance-endpoint-12",
+      "signal": "credential cache metadata touched by child process",
+      "severity": "medium"
+    },
+    {
+      "entity_id": "SERVICE-STORAGE-EXPORT",
+      "name": "storage-export-worker",
+      "signal": "large export following suspicious OAuth grant",
+      "severity": "high"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "dynatrace_query_service_anomalies",
+      "result": "auth gateway saw refresh token replay from unmanaged ASN after MFA prompt burst"
+    },
+    {
+      "tool": "dynatrace_fetch_entity_timeline",
+      "result": "storage export worker processed 1.8 GB payroll archive after new OAuth grant"
+    },
+    {
+      "tool": "dynatrace_get_security_runtime_events",
+      "result": "PowerShell child process accessed browser credential cache metadata"
+    }
+  ],
+  "agent_output": {
+    "risk": 87,
+    "confidence": 0.91,
+    "requires_human_approval": true,
+    "recommended_approval_actions": [
+      "revoke refresh token families",
+      "disable OAuth grant",
+      "quarantine endpoint artifacts"
+    ]
+  }
+}

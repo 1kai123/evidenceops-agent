@@ -1,0 +1,57 @@
+{
+  "name": "evidenceops-agent-google-rapid-edition",
+  "version": "0.1.0",
+  "goal": "Convert noisy security alerts into an evidence-cited incident brief with human approval gates.",
+  "orchestration_style": "Google Cloud Agent Builder compatible flow blueprint",
+  "steps": [
+    {
+      "id": "triage_alert",
+      "type": "agent_step",
+      "input": "raw alert cluster",
+      "output": "incident hypothesis, affected identity, severity seed",
+      "guardrail": "Do not recommend containment before evidence retrieval."
+    },
+    {
+      "id": "retrieve_evidence",
+      "type": "dynatrace_mcp_tool_step",
+      "tools": [
+        "dynatrace_query_service_anomalies",
+        "dynatrace_fetch_entity_timeline",
+        "dynatrace_correlate_deployment_events",
+        "dynatrace_get_security_runtime_events"
+      ],
+      "output": "normalized evidence timeline"
+    },
+    {
+      "id": "grounded_reasoning",
+      "type": "gemini_step",
+      "prompt_contract": "google-cloud/gemini_prompt_contract.md",
+      "output": "risk score, confidence, explanation, uncertainty"
+    },
+    {
+      "id": "human_approval",
+      "type": "approval_gate",
+      "actions_requiring_approval": [
+        "revoke refresh token families",
+        "disable OAuth grant",
+        "quarantine endpoint artifacts"
+      ]
+    },
+    {
+      "id": "incident_brief",
+      "type": "gemini_step",
+      "output": "submission-ready incident brief with cited evidence and next actions"
+    }
+  ],
+  "audit_fields": [
+    "tool_name",
+    "tool_input",
+    "result_summary",
+    "evidence_ids",
+    "confidence",
+    "approval_required",
+    "approved_by",
+    "trace_id",
+    "entity_id"
+  ]
+}

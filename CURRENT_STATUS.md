@@ -44,9 +44,12 @@ Splunk Agentic Ops Hackathon.
 - Public project page: verified.
 - Embedded demo video: verified as YouTube `9U1Q8vSjjBw`.
 - Judge Proof Pack: verified on GitHub Pages and Devpost story.
+- Splunk feedback prize path: feedback drafted and attempted, but no confirmed Google Forms receipt was shown. See `FEEDBACK_PRIZE_ATTEMPT.md`.
+- Second cash-prize target selected: Google Cloud Rapid Agent Hackathon. See `SECOND_HACKATHON_TARGET.md`.
 
 ## Next Actions
 
 1. Keep GitHub Pages and the YouTube demo available through judging.
-2. Monitor Devpost notifications and hackathon updates.
-3. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.
+2. Build a Google Cloud Rapid Agent edition evidence pack for a second submission before Jun 11, 2026.
+3. Monitor Devpost notifications and hackathon updates.
+4. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.
