@@ -49,7 +49,9 @@ Splunk Agentic Ops Hackathon.
 - FIND EVIL registration: completed.
 - FIND EVIL submission: completed and verified on Devpost public page.
 - FIND EVIL risk: current video URL is the existing UI demo. The rules ask for a live terminal execution screencast with self-correction, so replacing the video before the Jun 15, 2026 deadline is the highest-impact remaining improvement.
-- Brand Portals for Brands target: selected as a low-competition student-only cash-prize opportunity. Brand portal built locally at `brand-portal/`; submission pack prepared in `BRAND_PORTALS_SUBMISSION_READY.md`.
+- Brand Portals for Brands target: selected as a low-competition student-only cash-prize opportunity. Brand portal built and deployed at https://1kai123.github.io/evidenceops-agent/brand-portal/; submission pack prepared in `BRAND_PORTALS_SUBMISSION_READY.md`.
+- Brand Portals blocker: `https://brand.devpost.com/` currently returns HTTP 403. Devpost student eligibility fields still need user-provided school, graduation, and birth month/year before retrying.
+- BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
 
 ## Next Actions
 

@@ -514,6 +514,40 @@ h3 {
   max-width: 850px;
 }
 
+.brandkity {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(320px, 0.75fr);
+  gap: clamp(24px, 5vw, 70px);
+  align-items: center;
+}
+
+.brandkity p {
+  max-width: 760px;
+  color: #30373f;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.transfer-list {
+  display: grid;
+  gap: 12px;
+}
+
+.transfer-list a {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+  border: 2px solid var(--ink);
+  background: var(--panel);
+  padding: 0 16px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 0 rgba(17, 19, 22, 0.16);
+}
+
 .toast {
   position: fixed;
   right: 20px;
@@ -573,5 +607,9 @@ h3 {
   .download-band {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .brandkity {
+    grid-template-columns: 1fr;
   }
 }

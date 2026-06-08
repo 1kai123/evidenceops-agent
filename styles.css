@@ -304,6 +304,47 @@ h2 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.brand-portal-strip {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(360px, 1fr);
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+  border: 2px solid var(--ink);
+  background: #f7f6f1;
+  padding: 16px;
+  box-shadow: 5px 5px 0 var(--red);
+}
+
+.brand-portal-strip h2 {
+  max-width: 760px;
+  font-size: clamp(21px, 2.6vw, 34px);
+  line-height: 1.05;
+}
+
+.brand-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.brand-actions a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62px;
+  border: 1px solid var(--ink);
+  background: #fff;
+  color: var(--ink);
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .workspace {
   display: grid;
   grid-template-columns: 310px minmax(380px, 1fr) 360px;
@@ -604,13 +645,18 @@ pre {
     grid-template-columns: 1fr;
   }
 
+  .brand-portal-strip {
+    grid-template-columns: 1fr;
+  }
+
   .readiness-grid {
     grid-template-columns: 1fr;
   }
 
   .proof-grid,
   .edition-grid,
-  .edition-links {
+  .edition-links,
+  .brand-actions {
     grid-template-columns: 1fr;
   }
 }

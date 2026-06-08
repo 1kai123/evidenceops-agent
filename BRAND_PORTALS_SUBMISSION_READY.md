@@ -8,6 +8,10 @@ EvidenceOps Agent Brand Portal
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/
 
+## Brand Assets Package
+
+https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
+
 ## Repository
 
 https://github.com/1kai123/evidenceops-agent
@@ -42,3 +46,5 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 ## Remaining Risk
 
 The hackathon name implies BrandKity/brand portal tooling may be expected. If Devpost specifically requires a BrandKity-hosted URL during submission, the live GitHub Pages portal should be transferred or recreated in BrandKity before final submit.
+
+Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network. The most likely fix is completing Devpost student eligibility fields and retrying. If it still returns 403 afterward, contact Devpost support with the public Brand Portal URL and ask whether the account is eligible for Brand Portals for Brands.
