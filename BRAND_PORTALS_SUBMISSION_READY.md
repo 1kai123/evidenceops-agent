@@ -12,6 +12,10 @@ https://1kai123.github.io/evidenceops-agent/brand-portal/
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 
+## QA Report
+
+https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md
+
 ## Repository
 
 https://github.com/1kai123/evidenceops-agent
@@ -50,3 +54,5 @@ The hackathon name implies BrandKity/brand portal tooling may be expected. If De
 Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network. The most likely fix is completing Devpost student eligibility fields and retrying. If it still returns 403 afterward, contact Devpost support with the public Brand Portal URL and ask whether the account is eligible for Brand Portals for Brands.
 
 BrandKity path checked: `https://brandkity.com/signup` is accessible and offers Google login or email/password signup, but it includes account creation and Cloudflare Turnstile. The user must complete this step personally before the BrandKit can be recreated on BrandKity and published as an official BrandKity URL.
+
+Access recovery steps and a Devpost support template are prepared in `BRAND_PORTALS_ACCESS_RECOVERY.md`.
