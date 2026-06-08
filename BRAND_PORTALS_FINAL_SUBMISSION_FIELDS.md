@@ -74,13 +74,17 @@ If a brand-specific video is required, record a short 60-90 second walkthrough:
 4. Show the asset library.
 5. Show the BrandKity transfer section and downloadable asset package.
 
+Use `BRAND_PORTALS_VIDEO_SCRIPT.md` for the full recording script.
+
 ## Thumbnail / Cover
 
-Use:
+Use the PNG version for Devpost or BrandKity upload fields:
+
+`brand-portal/assets/social/devpost-cover.png`
+
+Use the SVG version only when the platform accepts vector uploads:
 
 `brand-portal/assets/social/devpost-cover.svg`
-
-If the form requires PNG/JPG, export the SVG first.
 
 ## Answers to Common Devpost Questions
 

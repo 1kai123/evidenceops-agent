@@ -25,6 +25,7 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `BRAND_PORTALS_SUBMISSION_READY.md`: submission copy and eligibility notes for Brand Portals for Brands.
 - `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md`: copy-ready final Brand Portals Devpost and BrandKity submission fields.
 - `BRAND_PORTALS_USER_ACTIONS_CN.md`: Chinese minimal user-only action list for eligibility, BrandKity, and final submit.
+- `BRAND_PORTALS_VIDEO_SCRIPT.md`: 60-90 second brand-specific walkthrough script if a video is requested.
 - `BRAND_PORTAL_QA_REPORT.md`: live URL, asset, screenshot, and responsiveness verification.
 - `BRAND_PORTALS_ACCESS_RECOVERY.md`: Devpost student eligibility, BrandKity signup, and 403 support steps.
 - `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`: prize eligibility, tax, and payout preparation for a China-based student.

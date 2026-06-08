@@ -51,6 +51,7 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 - Live portal is easy for judges to inspect.
 - The brand system is grounded in an existing working product and public demo.
 - The live portal now includes a `Judge Fit` section that maps every official judging dimension to visible proof in the submission.
+- PNG cover art and a brand-specific 60-90 second video script are prepared if the submission form requests media uploads.
 
 ## Judging Criteria Mapping
 

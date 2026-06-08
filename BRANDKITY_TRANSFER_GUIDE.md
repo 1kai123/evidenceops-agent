@@ -66,6 +66,7 @@ Avoid:
 Upload:
 
 - `brand-portal/assets/social/devpost-cover.svg`
+- `brand-portal/assets/social/devpost-cover.png`
 - `brand-portal/assets/social/social-card.svg`
 
 ## Devpost Submission URL
