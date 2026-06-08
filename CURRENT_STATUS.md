@@ -52,6 +52,7 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals for Brands target: selected as a low-competition student-only cash-prize opportunity. Brand portal built and deployed at https://1kai123.github.io/evidenceops-agent/brand-portal/; submission pack prepared in `BRAND_PORTALS_SUBMISSION_READY.md`.
 - Brand Portals blocker: `https://brand.devpost.com/` currently returns HTTP 403. Devpost student eligibility fields still need user-provided school, graduation, and birth month/year before retrying.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
+- BrandKity account step: signup page is accessible, but it requires Google login or email/password plus Cloudflare Turnstile, so the user must complete the account/human verification step personally.
 
 ## Next Actions
 

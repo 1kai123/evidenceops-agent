@@ -48,3 +48,5 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 The hackathon name implies BrandKity/brand portal tooling may be expected. If Devpost specifically requires a BrandKity-hosted URL during submission, the live GitHub Pages portal should be transferred or recreated in BrandKity before final submit.
 
 Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network. The most likely fix is completing Devpost student eligibility fields and retrying. If it still returns 403 afterward, contact Devpost support with the public Brand Portal URL and ask whether the account is eligible for Brand Portals for Brands.
+
+BrandKity path checked: `https://brandkity.com/signup` is accessible and offers Google login or email/password signup, but it includes account creation and Cloudflare Turnstile. The user must complete this step personally before the BrandKit can be recreated on BrandKity and published as an official BrandKity URL.
