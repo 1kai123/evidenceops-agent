@@ -53,6 +53,8 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals blocker: `https://brand.devpost.com/` currently returns HTTP 403. Devpost student eligibility fields still need user-provided school, graduation, and birth month/year before retrying.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
 - BrandKity account step: signup page is accessible, but it requires Google login or email/password plus Cloudflare Turnstile, so the user must complete the account/human verification step personally.
+- Prize claiming preparation: China student payout/tax checklist prepared in `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`.
+- Required user-supplied eligibility fields still missing: school English name, current student level, graduation month/year, and birth month/year.
 
 ## Next Actions
 
