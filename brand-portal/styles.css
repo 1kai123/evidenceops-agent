@@ -275,6 +275,56 @@ h3 {
   font-size: clamp(18px, 2.2vw, 28px);
 }
 
+.judge-fit {
+  background:
+    linear-gradient(90deg, rgba(212, 61, 47, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(212, 61, 47, 0.08) 1px, transparent 1px),
+    #fffdf7;
+  background-size: 28px 28px;
+}
+
+.judge-fit .section-head p {
+  max-width: 460px;
+  color: #30373f;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.judge-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.judge-grid article {
+  min-height: 300px;
+  border: 2px solid var(--ink);
+  background: var(--panel);
+  padding: 18px;
+  box-shadow: 5px 5px 0 rgba(17, 19, 22, 0.16);
+}
+
+.judge-grid span {
+  display: block;
+  color: var(--red);
+  font-family: "Courier New", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.judge-grid h3 {
+  margin: 18px 0 12px;
+  font-size: 24px;
+  line-height: 1.05;
+}
+
+.judge-grid p {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
 .section {
   padding: clamp(54px, 9vw, 118px) clamp(18px, 4vw, 56px);
   border-top: 2px solid var(--ink);
@@ -570,7 +620,8 @@ h3 {
 @media (max-width: 1040px) {
   .hero-grid,
   .split,
-  .application-grid {
+  .application-grid,
+  .judge-grid {
     grid-template-columns: 1fr;
   }
 

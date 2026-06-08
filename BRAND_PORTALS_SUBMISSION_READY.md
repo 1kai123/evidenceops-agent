@@ -46,6 +46,17 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 - Distinctive product-contextual design instead of generic brand templates.
 - Live portal is easy for judges to inspect.
 - The brand system is grounded in an existing working product and public demo.
+- The live portal now includes a `Judge Fit` section that maps every official judging dimension to visible proof in the submission.
+
+## Judging Criteria Mapping
+
+| Criterion | Evidence in submission |
+| --- | --- |
+| Presentation | First-screen product promise, case card, evidence trace, and clear artifact links. |
+| Organization | Separate sections for assets, visual system, applications, voice, submission package, and BrandKity transfer. |
+| Design Quality | Security-native identity based on incident reports, evidence IDs, terminal traces, and approval gates. |
+| Consistency | Same logo, color, typography, copy rules, and evidence language across product, report, social, and Devpost assets. |
+| Completeness | Live portal, repository, downloadable brand assets package, brand guidelines, QA report, and BrandKity transfer guide. |
 
 ## Remaining Risk
 
