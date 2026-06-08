@@ -20,6 +20,10 @@ https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md
 
 https://github.com/1kai123/evidenceops-agent
 
+## Copy-Ready Final Fields
+
+Use `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` after Devpost student eligibility and BrandKity account verification are complete.
+
 ## Eligibility Notes
 
 - The hackathon page lists `Students only`.

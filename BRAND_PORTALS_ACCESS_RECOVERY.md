@@ -55,6 +55,9 @@ My project is ready:
 - Brand portal backup URL: https://1kai123.github.io/evidenceops-agent/brand-portal/
 - Repository: https://github.com/1kai123/evidenceops-agent
 - Asset package: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
+- QA report: https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md
+
+The project includes a live Brand Portal, downloadable brand assets, BrandKity transfer guide, and a judging-criteria mapping for presentation, organization, design quality, consistency, and completeness.
 
 Could you please confirm whether my account is eligible and help restore access to the hackathon submission page?
 
