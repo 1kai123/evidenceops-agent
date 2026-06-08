@@ -1,5 +1,7 @@
 name: Deploy static demo to GitHub Pages
 
+# Re-deploys the static demo and Brand Portal whenever main changes.
+
 on:
   push:
     branches:
