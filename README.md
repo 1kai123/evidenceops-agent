@@ -22,6 +22,8 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `GOOGLE_CLOUD_RAPID_AGENT_EDITION.md`: fast pivot pack for Google Cloud Rapid Agent Hackathon.
 - `google-cloud/`: Agent Builder flow, Gemini prompt contract, and partner MCP mapping.
 - `FEEDBACK_PRIZE_ATTEMPT.md`: Splunk feedback prize attempt and prepared feedback themes.
+- `BRAND_PORTALS_SUBMISSION_READY.md`: submission copy and eligibility notes for Brand Portals for Brands.
+- `brand-portal/`: complete EvidenceOps Agent brand portal with logos, social assets, voice, color, and downloadable guidelines.
 - `FINDEVIL_SUBMISSION_READY.md`: FIND EVIL copy, run instructions, and judging emphasis.
 - `FINDEVIL_EVIDENCE_DATASET.md`: FIND EVIL evidence dataset documentation.
 - `FINDEVIL_ACCURACY_REPORT.md`: FIND EVIL accuracy and self-correction report.

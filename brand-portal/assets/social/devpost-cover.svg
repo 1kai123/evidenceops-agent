@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="EvidenceOps Agent Devpost cover">
+  <rect width="1200" height="800" fill="#F7F6F1"/>
+  <path d="M52 52h1096v696H52z" fill="#111316"/>
+  <g opacity=".11" stroke="#F7F6F1">
+    <path d="M52 132h1096M52 212h1096M52 292h1096M52 372h1096M52 452h1096M52 532h1096M52 612h1096M52 692h1096"/>
+    <path d="M132 52v696M212 52v696M292 52v696M372 52v696M452 52v696M532 52v696M612 52v696M692 52v696M772 52v696M852 52v696M932 52v696M1012 52v696M1092 52v696"/>
+  </g>
+  <rect x="96" y="96" width="132" height="132" fill="#F7F6F1"/>
+  <path d="M120 120h84v84h-84z" fill="#111316"/>
+  <path d="M138 139h52v14h-38v29h38v14h-52z" fill="#F7F6F1"/>
+  <path d="M164 160h26v18h-26z" fill="#D43D2F"/>
+  <path d="M152 187h38v9h-38z" fill="#2367A5"/>
+  <text x="96" y="364" fill="#F7F6F1" font-family="Georgia,serif" font-size="95" font-weight="700">EvidenceOps Agent</text>
+  <text x="101" y="434" fill="#FF786D" font-family="Courier New,monospace" font-size="30" font-weight="700">TRACEABLE AI INCIDENT RESPONSE</text>
+  <rect x="100" y="505" width="330" height="92" fill="#F7F6F1"/>
+  <text x="126" y="548" fill="#111316" font-family="Courier New,monospace" font-size="24" font-weight="700">Evidence IDs</text>
+  <text x="126" y="580" fill="#111316" font-family="Courier New,monospace" font-size="20">EV-001 → EV-006</text>
+  <rect x="458" y="505" width="330" height="92" fill="#F7F6F1"/>
+  <text x="484" y="548" fill="#111316" font-family="Courier New,monospace" font-size="24" font-weight="700">Self-correction</text>
+  <text x="484" y="580" fill="#111316" font-family="Courier New,monospace" font-size="20">confirmed → likely</text>
+  <rect x="816" y="505" width="240" height="92" fill="#D43D2F"/>
+  <text x="842" y="548" fill="#F7F6F1" font-family="Courier New,monospace" font-size="24" font-weight="700">Human gate</text>
+  <text x="842" y="580" fill="#F7F6F1" font-family="Courier New,monospace" font-size="20">approval first</text>
+</svg>

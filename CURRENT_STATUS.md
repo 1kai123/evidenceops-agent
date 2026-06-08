@@ -49,10 +49,12 @@ Splunk Agentic Ops Hackathon.
 - FIND EVIL registration: completed.
 - FIND EVIL submission: completed and verified on Devpost public page.
 - FIND EVIL risk: current video URL is the existing UI demo. The rules ask for a live terminal execution screencast with self-correction, so replacing the video before the Jun 15, 2026 deadline is the highest-impact remaining improvement.
+- Brand Portals for Brands target: selected as a low-competition student-only cash-prize opportunity. Brand portal built locally at `brand-portal/`; submission pack prepared in `BRAND_PORTALS_SUBMISSION_READY.md`.
 
 ## Next Actions
 
 1. Keep GitHub Pages and the YouTube demo available through judging.
 2. Record and upload a FIND EVIL terminal screencast using `FINDEVIL_VIDEO_SCRIPT.md`, then replace the video URL on Devpost.
-3. Monitor Devpost notifications and hackathon updates.
-4. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.
+3. Register/submit Brand Portals for Brands with the live brand portal URL after GitHub Pages updates.
+4. Monitor Devpost notifications and hackathon updates.
+5. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.

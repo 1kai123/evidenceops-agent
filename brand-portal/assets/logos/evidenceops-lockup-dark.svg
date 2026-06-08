@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" role="img" aria-label="EvidenceOps Agent dark logo">
+  <rect width="720" height="190" fill="#F7F6F1"/>
+  <g transform="translate(24 31)">
+    <rect width="128" height="128" fill="#111316"/>
+    <path d="M16 15h96v98H16z" fill="#111316"/>
+    <path d="M32 30h64v16H48v34h48v16H32z" fill="#F7F6F1"/>
+    <path d="M61 54h35v20H61z" fill="#D43D2F"/>
+    <path d="M48 88h48v10H48z" fill="#2367A5"/>
+    <path d="M16 15h28v10H26v19H16zM112 113H84v-10h18V84h10z" fill="#1F7A55"/>
+  </g>
+  <text x="180" y="87" fill="#111316" font-family="Georgia,serif" font-size="58" font-weight="700">EvidenceOps</text>
+  <text x="184" y="126" fill="#D43D2F" font-family="Courier New,monospace" font-size="24" font-weight="700" letter-spacing="1">AGENT / TRACEABLE INCIDENT RESPONSE</text>
+</svg>

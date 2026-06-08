@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="EvidenceOps Agent social card">
+  <rect width="1200" height="675" fill="#111316"/>
+  <path d="M0 0h1200v675H0z" fill="#111316"/>
+  <g opacity=".12" stroke="#F7F6F1">
+    <path d="M0 75h1200M0 150h1200M0 225h1200M0 300h1200M0 375h1200M0 450h1200M0 525h1200M0 600h1200"/>
+    <path d="M75 0v675M150 0v675M225 0v675M300 0v675M375 0v675M450 0v675M525 0v675M600 0v675M675 0v675M750 0v675M825 0v675M900 0v675M975 0v675M1050 0v675M1125 0v675"/>
+  </g>
+  <rect x="64" y="64" width="148" height="148" fill="#F7F6F1"/>
+  <path d="M88 88h100v100H88z" fill="#111316"/>
+  <path d="M108 109h60v15h-44v35h44v15h-60z" fill="#F7F6F1"/>
+  <path d="M137 132h31v21h-31z" fill="#D43D2F"/>
+  <path d="M124 165h44v10h-44z" fill="#2367A5"/>
+  <text x="64" y="320" fill="#F7F6F1" font-family="Georgia,serif" font-size="88" font-weight="700">Evidence that</text>
+  <text x="64" y="410" fill="#F7F6F1" font-family="Georgia,serif" font-size="88" font-weight="700">self-corrects.</text>
+  <text x="68" y="482" fill="#FF786D" font-family="Courier New,monospace" font-size="28" font-weight="700">AI INCIDENT RESPONSE / MCP TOOL TRACE / HUMAN APPROVAL</text>
+  <rect x="770" y="92" width="350" height="420" fill="#F7F6F1" stroke="#F7F6F1" stroke-width="2"/>
+  <text x="804" y="150" fill="#D43D2F" font-family="Courier New,monospace" font-size="22" font-weight="700">CASE: OAUTH TOKEN THEFT</text>
+  <text x="804" y="218" fill="#111316" font-family="Courier New,monospace" font-size="34" font-weight="700">RISK 87</text>
+  <text x="804" y="274" fill="#111316" font-family="Courier New,monospace" font-size="25">EV-001 MFA fatigue</text>
+  <text x="804" y="322" fill="#111316" font-family="Courier New,monospace" font-size="25">EV-004 token replay</text>
+  <text x="804" y="370" fill="#111316" font-family="Courier New,monospace" font-size="25">FIX likely exfil</text>
+  <rect x="804" y="424" width="250" height="42" fill="#1F7A55"/>
+  <text x="824" y="454" fill="#F7F6F1" font-family="Courier New,monospace" font-size="22" font-weight="700">APPROVAL GATE</text>
+</svg>
