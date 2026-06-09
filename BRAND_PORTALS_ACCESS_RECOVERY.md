@@ -9,16 +9,19 @@ This file records the exact steps needed to recover access to Brand Portals for 
 - Devpost settings page is accessible.
 - BrandKity signup page is accessible.
 
-## Information Required From User
+## Student Eligibility Information
 
-Devpost eligibility fields require personal student information. Do not invent these values.
+Devpost eligibility fields require personal student information. Use the user-provided values only in Devpost or organizer forms.
 
-Needed:
+Public-safe values:
 
-1. School English name.
-2. Current student level: `College`, `High School`, or `Middle School`.
-3. Graduation month and year.
-4. Birth month and year.
+1. School English name: `China University of Geosciences (Wuhan)`.
+2. Current student level: `College`.
+3. Graduation month and year: `June 2028`.
+
+Private form-only value:
+
+1. Birth month and year: user provided; do not publish in public files.
 
 ## Devpost Eligibility Update Steps
 
@@ -48,7 +51,7 @@ Subject: Access issue for Brand Portals for Brands student hackathon
 
 Hello Devpost team,
 
-I am a student in China and I am trying to access Brand Portals for Brands, but `https://brand.devpost.com/` returns HTTP 403 for my account. The hackathon eligibility summary says students only, above legal age of majority, and all countries/territories excluding standard exceptions.
+I am a student in China at China University of Geosciences (Wuhan), and I am trying to access Brand Portals for Brands, but `https://brand.devpost.com/` returns HTTP 403 for my account. The hackathon eligibility summary says students only, above legal age of majority, and all countries/territories excluding standard exceptions.
 
 My project is ready:
 
