@@ -4,10 +4,12 @@ This file records the exact steps needed to recover access to Brand Portals for 
 
 ## Current External State
 
-- `https://brand.devpost.com/` returns HTTP 403.
+- Devpost eligibility was updated successfully on 2026-06-09.
+- `https://brand.devpost.com/` still returns HTTP 403 after the eligibility update.
 - `https://brand.devpost.com/register?...` also returns HTTP 403.
 - Devpost settings page is accessible.
 - BrandKity signup page is accessible.
+- BrandKity Google login reaches the Google account chooser and requires user authorization.
 
 ## Student Eligibility Information
 

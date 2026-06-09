@@ -38,6 +38,11 @@ https://devpost.com/settings/preferences_and_eligibility#eligibility-section
 
 https://brandkity.com/signup
 
+当前进度：
+
+- Google 登录已经可以打开到账号选择页。
+- 浏览器中存在多个 Google 账号，必须由你本人选择要授权给 BrandKity 的账号。
+
 你本人需要完成：
 
 1. Google 登录，或邮箱/密码注册。
@@ -47,6 +52,17 @@ https://brandkity.com/signup
 5. 上传素材包：
    https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 6. 发布 BrandKit，复制公开 URL。
+
+## 你完成 Google 授权后 Codex 继续做什么
+
+1. 进入 BrandKity dashboard。
+2. 创建 `EvidenceOps Agent` BrandKit。
+3. 按 `BRANDKITY_TRANSFER_GUIDE.md` 填入品牌故事、颜色、字体、声音规则。
+4. 上传 logo、Devpost PNG 封面、social card、截图和 zip 素材包。
+5. 发布或复制 BrandKit 公开 URL。
+6. 重试 Brand Devpost 提交入口。
+7. 如果入口恢复，使用 `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` 填表并提交。
+8. 如果入口仍 403，使用 `BRAND_PORTALS_ACCESS_RECOVERY.md` 联系 Devpost 支持。
 
 ## 打开提交表单后复制这些材料
 
