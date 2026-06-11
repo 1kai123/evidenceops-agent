@@ -56,7 +56,7 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals Devpost eligibility: updated and saved successfully on 2026-06-09 with `Student`, `College`, `China University of Geosciences (Wuhan)`, graduation `June 2028`, and user-provided birth month/year.
 - Brand Portals BrandKity URL: published and verified at https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update and after publishing the BrandKity kit. The current likely path is Devpost support or an alternate organizer-approved submission path.
-- Devpost support email for Brand Portals 403 is prepared in `DEVPOST_SUPPORT_EMAIL_READY.md`; sending it is the next external action and should be confirmed by the user.
+- Devpost support email for Brand Portals 403 is prepared in `DEVPOST_SUPPORT_EMAIL_READY.md` and `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`; sending it is the next external action and should be confirmed by the user.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
 - BrandKity account step: completed. Google login succeeded, `EvidenceOps Agent` BrandKit was created, content/assets were added, and the kit was published.
 - Prize claiming preparation: China student payout/tax checklist prepared in `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`.
