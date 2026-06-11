@@ -29,6 +29,7 @@ EvidenceOps Agent is an AI incident response workspace built for online hackatho
 - `BRAND_PORTALS_VIDEO_SCRIPT.md`: 60-90 second brand-specific walkthrough script if a video is requested.
 - `BRAND_PORTAL_QA_REPORT.md`: live URL, asset, screenshot, and responsiveness verification.
 - `BRAND_PORTALS_ACCESS_RECOVERY.md`: Devpost student eligibility, BrandKity signup, and 403 support steps.
+- `DEVPOST_SUPPORT_EMAIL_READY.md`: final support email for the Brand Portals 403 access issue.
 - `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`: prize eligibility, tax, and payout preparation for a China-based student.
 - `brand-portal/`: complete EvidenceOps Agent brand portal with logos, social assets, voice, color, and downloadable guidelines.
 - `FINDEVIL_SUBMISSION_READY.md`: FIND EVIL copy, run instructions, and judging emphasis.

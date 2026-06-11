@@ -41,6 +41,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 - Video script: `BRAND_PORTALS_VIDEO_SCRIPT.md`
 - User-only Chinese checklist: `BRAND_PORTALS_USER_ACTIONS_CN.md`
 - 403 support template: `BRAND_PORTALS_ACCESS_RECOVERY.md`
+- Final Devpost support email: `DEVPOST_SUPPORT_EMAIL_READY.md`
 - Prize claiming guide: `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`
 
 ## Required User-Only Steps
@@ -58,3 +59,5 @@ These cannot be completed by automation without user-provided personal informati
 ## Current Blocker
 
 `https://brand.devpost.com/` still returns HTTP 403 for the current account/network path even after Devpost student eligibility was updated and the BrandKity BrandKit was published. The project is ready, but final Devpost submission requires restored Brand Devpost access or a public submission path accepted by the organizer.
+
+The next support action is sending `DEVPOST_SUPPORT_EMAIL_READY.md` to `support@devpost.com`.

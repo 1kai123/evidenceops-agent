@@ -49,6 +49,10 @@ Completed:
 
 ## Devpost Support Email Template
 
+Final copy-ready email is prepared in:
+
+`DEVPOST_SUPPORT_EMAIL_READY.md`
+
 Subject: Access issue for Brand Portals for Brands student hackathon
 
 Hello Devpost team,
