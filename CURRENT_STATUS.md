@@ -54,9 +54,10 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals final-submit pack: copy-ready Devpost and BrandKity fields prepared in `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md`; required user-only steps summarized in `BRAND_PORTALS_USER_ACTIONS_CN.md`.
 - Brand Portals single-entry review index: `BRAND_PORTALS_SUBMISSION_INDEX.md`; complete upload/support zip will be published as `brand-portals-submission-pack.zip`.
 - Brand Portals Devpost eligibility: updated and saved successfully on 2026-06-09 with `Student`, `College`, `China University of Geosciences (Wuhan)`, graduation `June 2028`, and user-provided birth month/year.
-- Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update. The current likely path is BrandKity account authorization or Devpost support.
+- Brand Portals BrandKity URL: published and verified at https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+- Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update and after publishing the BrandKity kit. The current likely path is Devpost support or an alternate organizer-approved submission path.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
-- BrandKity account step: signup page is accessible. Google login reaches the Google account chooser; the user must personally choose/authorize a Google account before Codex can continue creating the BrandKit.
+- BrandKity account step: completed. Google login succeeded, `EvidenceOps Agent` BrandKit was created, content/assets were added, and the kit was published.
 - Prize claiming preparation: China student payout/tax checklist prepared in `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`.
 - User-supplied eligibility fields received: school `China University of Geosciences (Wuhan)`, level `College`, graduation `June 2028`, birth month/year provided for form use only.
 

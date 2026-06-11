@@ -8,8 +8,8 @@ This file records the exact steps needed to recover access to Brand Portals for 
 - `https://brand.devpost.com/` still returns HTTP 403 after the eligibility update.
 - `https://brand.devpost.com/register?...` also returns HTTP 403.
 - Devpost settings page is accessible.
-- BrandKity signup page is accessible.
-- BrandKity Google login reaches the Google account chooser and requires user authorization.
+- BrandKity signup/login succeeded.
+- Published BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 
 ## Student Eligibility Information
 
@@ -36,16 +36,16 @@ Private form-only value:
 7. Save changes.
 8. Retry: https://brand.devpost.com/
 
-## BrandKity Account Steps
+## BrandKity Account Status
 
-1. Open: https://brandkity.com/signup
-2. Sign up with Google or email/password.
-3. Complete Cloudflare Turnstile manually.
-4. Create a free BrandKit named `EvidenceOps Agent`.
-5. Use `BRANDKITY_TRANSFER_GUIDE.md` to populate sections.
-6. Upload the zip package:
-   https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
-7. Publish the BrandKit and copy its public BrandKity URL.
+Completed:
+
+1. Signed in with Google.
+2. Created a free BrandKit named `EvidenceOps Agent`.
+3. Added logo, cover image, brand story, judge-fit mapping, review links, and color block.
+4. Published the BrandKit.
+5. Verified the public URL:
+   https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 
 ## Devpost Support Email Template
 
@@ -58,6 +58,7 @@ I am a student in China at China University of Geosciences (Wuhan), and I am try
 My project is ready:
 
 - Brand portal backup URL: https://1kai123.github.io/evidenceops-agent/brand-portal/
+- Published BrandKity URL: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Repository: https://github.com/1kai123/evidenceops-agent
 - Asset package: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 - QA report: https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md

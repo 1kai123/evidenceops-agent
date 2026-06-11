@@ -5,6 +5,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 ## Primary Review Links
 
 - Live Brand Portal: https://1kai123.github.io/evidenceops-agent/brand-portal/
+- BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Complete Submission Pack Zip: https://1kai123.github.io/evidenceops-agent/brand-portals-submission-pack.zip
 - Brand Assets Zip: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 - PNG Devpost Cover: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/social/devpost-cover.png
@@ -13,7 +14,8 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 
 ## What Is Ready
 
-- Live brand portal with logo assets, colors, typography, voice, applications, and BrandKity transfer section.
+- Published BrandKity BrandKit with logo, cover, story, judge-fit mapping, colors, and review links.
+- Live GitHub Pages brand portal with logo assets, colors, typography, voice, applications, and BrandKity transfer section.
 - Judge Fit section mapping presentation, organization, design quality, consistency, and completeness to visible evidence.
 - Downloadable logo, social, screenshot, guidelines, and cover assets.
 - PNG cover for upload fields that do not accept SVG.
@@ -24,7 +26,8 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 
 ## Best Submission URL Order
 
-1. BrandKity public URL, if the platform requires it.
+1. BrandKity public URL:
+   https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 2. GitHub Pages Brand Portal backup:
    https://1kai123.github.io/evidenceops-agent/brand-portal/
 3. Complete Submission Pack Zip:
@@ -49,11 +52,9 @@ These cannot be completed by automation without user-provided personal informati
    - Current student level.
    - Graduation month/year.
    - Birth month/year.
-2. Complete BrandKity signup / login and any Cloudflare Turnstile or OTP checks.
-3. Create or publish the BrandKity BrandKit if a BrandKity URL is required.
-4. Review legal eligibility statements before final submit.
-5. Click the final submit button only after the form is correct.
+2. Review legal eligibility statements before final submit.
+3. Click the final submit button only after the form is correct.
 
 ## Current Blocker
 
-`https://brand.devpost.com/` still returns HTTP 403 for the current account/network path. The project is ready, but final submission requires either restored Brand Devpost access or a BrandKity/public submission path accepted by the organizer.
+`https://brand.devpost.com/` still returns HTTP 403 for the current account/network path even after Devpost student eligibility was updated and the BrandKity BrandKit was published. The project is ready, but final Devpost submission requires restored Brand Devpost access or a public submission path accepted by the organizer.

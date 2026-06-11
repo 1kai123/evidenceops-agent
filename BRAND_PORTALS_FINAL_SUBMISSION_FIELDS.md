@@ -38,15 +38,18 @@ The live portal now includes a `Judge Fit` section that maps the submission dire
 
 ## Main Project URL
 
-Use a BrandKity public URL here if the form requires one.
+Use the published BrandKity public URL:
 
-If GitHub Pages is accepted:
+https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+
+If the form also accepts supporting URLs, include the GitHub Pages portal:
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/
 
 ## Backup / Supporting URLs
 
 - Brand Portal: https://1kai123.github.io/evidenceops-agent/brand-portal/
+- BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Asset Package: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 - QA Report: https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md
 - Repository: https://github.com/1kai123/evidenceops-agent
@@ -114,13 +117,13 @@ Strong AI product branding is not only about looking modern. For security tools,
 
 ### What's Next
 
-The next step is to recreate or publish the same kit on BrandKity if the hackathon requires a BrandKity-hosted URL. The current GitHub Pages portal remains the source-of-truth backup.
+The BrandKity version is now published. The GitHub Pages portal remains the source-of-truth backup and carries the complete asset package.
 
 ## Final Pre-Submit Checklist
 
 1. Devpost student eligibility fields are complete.
 2. Brand Portals page opens without HTTP 403.
-3. BrandKity public URL is available if required.
+3. BrandKity public URL is available: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 4. Brand Portal URL opens.
 5. Asset package URL downloads.
 6. QA report URL opens.

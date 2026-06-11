@@ -8,6 +8,10 @@ EvidenceOps Agent Brand Portal
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/
 
+## Published BrandKity BrandKit
+
+https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+
 ## Brand Assets Package
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
@@ -22,7 +26,7 @@ https://github.com/1kai123/evidenceops-agent
 
 ## Copy-Ready Final Fields
 
-Use `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` after Devpost student eligibility and BrandKity account verification are complete.
+Use `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` for the final Devpost form. Devpost eligibility and the BrandKity BrandKit are complete; Brand Devpost access still returns HTTP 403.
 
 ## Eligibility Notes
 
@@ -65,10 +69,10 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 
 ## Remaining Risk
 
-The hackathon name implies BrandKity/brand portal tooling may be expected. If Devpost specifically requires a BrandKity-hosted URL during submission, the live GitHub Pages portal should be transferred or recreated in BrandKity before final submit.
+The hackathon name implies BrandKity/brand portal tooling may be expected. A BrandKity-hosted BrandKit is now published and should be used as the primary submission URL.
 
 Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network. The most likely fix is completing Devpost student eligibility fields and retrying. If it still returns 403 afterward, contact Devpost support with the public Brand Portal URL and ask whether the account is eligible for Brand Portals for Brands.
 
-BrandKity path checked: `https://brandkity.com/signup` is accessible and offers Google login or email/password signup, but it includes account creation and Cloudflare Turnstile. The user must complete this step personally before the BrandKit can be recreated on BrandKity and published as an official BrandKity URL.
+BrandKity path completed: Google login succeeded, the `EvidenceOps Agent` BrandKit was created, content and assets were added, and the public BrandKity URL was verified.
 
 Access recovery steps and a Devpost support template are prepared in `BRAND_PORTALS_ACCESS_RECOVERY.md`.
