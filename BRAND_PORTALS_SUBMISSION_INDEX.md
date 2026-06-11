@@ -21,7 +21,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 - PNG cover for upload fields that do not accept SVG.
 - 60-90 second brand-specific video script.
 - Copy-ready Devpost / BrandKity submission fields.
-- Devpost 403 recovery email template.
+- Devpost 403 recovery email sent to support.
 - China student prize-claiming preparation guide.
 
 ## Best Submission URL Order
@@ -43,7 +43,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 - 403 support template: `BRAND_PORTALS_ACCESS_RECOVERY.md`
 - Final Devpost support email: `DEVPOST_SUPPORT_EMAIL_READY.md`
 - Plain-text email copy: `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`
-- Unsent desktop email draft: `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`
+- Desktop email draft archive: `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`
 - Prize claiming guide: `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`
 
 ## Required User-Only Steps
@@ -62,4 +62,4 @@ These cannot be completed by automation without user-provided personal informati
 
 `https://brand.devpost.com/` still returns HTTP 403 for the current account/network path even after Devpost student eligibility was updated and the BrandKity BrandKit was published. The project is ready, but final Devpost submission requires restored Brand Devpost access or a public submission path accepted by the organizer.
 
-The next support action is sending `DEVPOST_SUPPORT_EMAIL_PLAIN.txt` or opening `DEVPOST_SUPPORT_EMAIL_DRAFT.eml` and sending it to `support@devpost.com`.
+Support email was sent to `support@devpost.com` on 2026-06-11 after user confirmation. The next action is to watch for Devpost's reply and submit immediately if they restore access or provide an alternate accepted submission path.

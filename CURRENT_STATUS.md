@@ -1,6 +1,6 @@
 # Current Submission Status
 
-Checked date: 2026-06-09.
+Checked date: 2026-06-11.
 
 ## Completed
 
@@ -55,8 +55,8 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals single-entry review index: `BRAND_PORTALS_SUBMISSION_INDEX.md`; complete upload/support zip will be published as `brand-portals-submission-pack.zip`.
 - Brand Portals Devpost eligibility: updated and saved successfully on 2026-06-09 with `Student`, `College`, `China University of Geosciences (Wuhan)`, graduation `June 2028`, and user-provided birth month/year.
 - Brand Portals BrandKity URL: published and verified at https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
-- Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update and after publishing the BrandKity kit. The current likely path is Devpost support or an alternate organizer-approved submission path.
-- Devpost support email for Brand Portals 403 is prepared in `DEVPOST_SUPPORT_EMAIL_READY.md`, `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`, and unsent draft `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`; sending it is the next external action and should be confirmed by the user.
+- Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update and after publishing the BrandKity kit. Devpost support has been contacted; the current likely path is waiting for restored access or an alternate organizer-approved submission path.
+- Devpost support email for Brand Portals 403 was sent to `support@devpost.com` on 2026-06-11 after user confirmation. Source copies remain in `DEVPOST_SUPPORT_EMAIL_READY.md`, `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`, and `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
 - BrandKity account step: completed. Google login succeeded, `EvidenceOps Agent` BrandKit was created, content/assets were added, and the kit was published.
 - Prize claiming preparation: China student payout/tax checklist prepared in `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`.
@@ -66,6 +66,6 @@ Splunk Agentic Ops Hackathon.
 
 1. Keep GitHub Pages and the YouTube demo available through judging.
 2. Record and upload a FIND EVIL terminal screencast using `FINDEVIL_VIDEO_SCRIPT.md`, then replace the video URL on Devpost.
-3. Register/submit Brand Portals for Brands with the live brand portal URL after GitHub Pages updates.
+3. Watch for Devpost support response and register/submit Brand Portals for Brands as soon as access is restored or an alternate submission path is provided.
 4. Monitor Devpost notifications and hackathon updates.
 5. If improving before the deadline, update the Devpost project and re-verify the embedded video/link set.

@@ -10,6 +10,7 @@ This file records the exact steps needed to recover access to Brand Portals for 
 - Devpost settings page is accessible.
 - BrandKity signup/login succeeded.
 - Published BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+- Devpost support email sent to `support@devpost.com` on 2026-06-11 after user confirmation.
 
 ## Student Eligibility Information
 
@@ -46,6 +47,10 @@ Completed:
 4. Published the BrandKit.
 5. Verified the public URL:
    https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+
+## Devpost Support Email Status
+
+Sent on 2026-06-11 to `support@devpost.com` after user confirmation. If Devpost replies with restored access or an alternate submission path, use the prepared links and copy-ready fields in `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` to complete the final submission immediately.
 
 ## Devpost Support Email Template
 
