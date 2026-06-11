@@ -325,6 +325,41 @@ h3 {
   line-height: 1.45;
 }
 
+.walkthrough {
+  background:
+    linear-gradient(90deg, rgba(35, 103, 165, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(35, 103, 165, 0.08) 1px, transparent 1px),
+    #f9fbfb;
+}
+
+.walkthrough .section-head p {
+  max-width: 500px;
+  color: #30373f;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.video-frame {
+  max-width: calc(100% - 12px);
+  border: 2px solid var(--ink);
+  background: var(--ink);
+  padding: 12px;
+  box-shadow: 10px 10px 0 var(--blue);
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: var(--ink);
+}
+
+.download-actions.inline {
+  margin-top: 22px;
+}
+
 .section {
   padding: clamp(54px, 9vw, 118px) clamp(18px, 4vw, 56px);
   border-top: 2px solid var(--ink);

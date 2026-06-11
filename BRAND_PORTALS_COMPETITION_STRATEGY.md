@@ -18,7 +18,7 @@ Checked date: 2026-06-11.
 | Criterion | Weight | EvidenceOps proof |
 | --- | ---: | --- |
 | Brand Presentation | 25% | First-screen product promise, case preview, live BrandKity kit, and clear narrative. |
-| Organization & Delivery Experience | 25% | Published BrandKity URL, GitHub Pages portal, downloadable asset package, QA report, and submission index. |
+| Organization & Delivery Experience | 25% | Published BrandKity URL, GitHub Pages portal, embedded walkthrough video, downloadable asset package, QA report, and submission index. |
 | Design Quality | 20% | Security-native identity built from incident reports, evidence IDs, terminal traces, and approval gates. |
 | Brand Consistency | 15% | Shared logo, color, typography, voice, and report language across portal, product demo, social card, and cover image. |
 | Completeness | 15% | Logo variations, color palette, typography, guidelines, marketing/social assets, support files, and source repo. |

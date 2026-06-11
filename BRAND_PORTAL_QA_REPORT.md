@@ -8,6 +8,7 @@ Checked date: 2026-06-11.
 - Published BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Main product page with Brand Portals entry: https://1kai123.github.io/evidenceops-agent/
 - Asset package: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
+- Brand walkthrough video: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/video/evidenceops-brand-walkthrough.mp4
 
 ## Verification Results
 
@@ -17,6 +18,7 @@ Checked date: 2026-06-11.
 | Brand Portal title present | Page contains `EvidenceOps Agent Brand Portal` | Pass |
 | Asset library present | Page contains asset download links | Pass |
 | Published BrandKity URL visible | Page links directly to the public BrandKity BrandKit | Pass |
+| Brand walkthrough video present | Page embeds the dedicated Brand Portals walkthrough MP4 | Pass |
 | BrandKity transfer section present | Page contains `BrandKity` transfer guidance | Pass |
 | Judging criteria mapping present | Page contains the five criteria: presentation, organization, design quality, consistency, completeness | Pass |
 | Root demo links to brand portal | Root page contains Brand Portals entry links | Pass |

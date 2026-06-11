@@ -65,19 +65,15 @@ Brand design, Brand portal, AI security, Cybersecurity, Incident response, Devpo
 
 ## Submission Video
 
-If the Brand Portals form allows a video but does not require one, use the existing EvidenceOps Agent product demo only as supporting context:
+Use the brand-specific walkthrough video first:
+
+https://1kai123.github.io/evidenceops-agent/brand-portal/assets/video/evidenceops-brand-walkthrough.mp4
+
+If Devpost requires a YouTube/Vimeo URL rather than a direct MP4 URL, use the existing EvidenceOps Agent product demo as supporting context:
 
 https://youtu.be/9U1Q8vSjjBw
 
-If a brand-specific video is required, record a short 60-90 second walkthrough:
-
-1. Open the Brand Portal.
-2. Show the hero and product promise.
-3. Scroll to `Judge Fit`.
-4. Show the asset library.
-5. Show the BrandKity transfer section and downloadable asset package.
-
-Use `BRAND_PORTALS_VIDEO_SCRIPT.md` for the full recording script.
+The brand walkthrough is also embedded in the live Brand Portal.
 
 ## Thumbnail / Cover
 

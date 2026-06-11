@@ -26,6 +26,10 @@ https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-bran
 
 https://github.com/1kai123/evidenceops-agent/blob/main/BRAND_PORTAL_QA_REPORT.md
 
+## Brand Walkthrough Video
+
+https://1kai123.github.io/evidenceops-agent/brand-portal/assets/video/evidenceops-brand-walkthrough.mp4
+
 ## Repository
 
 https://github.com/1kai123/evidenceops-agent
@@ -62,6 +66,7 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 - The brand system is grounded in an existing working product and public demo.
 - The live portal now includes a `Judge Fit` section that maps every official judging dimension to visible proof in the submission.
 - PNG cover art and a brand-specific 60-90 second video script are prepared if the submission form requests media uploads.
+- A brand-specific 30-second walkthrough MP4 is embedded in the portal and available as a direct supporting URL.
 
 ## Judging Criteria Mapping
 

@@ -1,6 +1,10 @@
 # Brand Portals 60-90 Second Video Script
 
-Use this only if the Brand Portals submission form asks for a video or if adding a short walkthrough is allowed.
+Generated supporting video:
+
+https://1kai123.github.io/evidenceops-agent/brand-portal/assets/video/evidenceops-brand-walkthrough.mp4
+
+Use this file if a recorded voiceover version is later needed for YouTube/Vimeo. The generated MP4 is a silent, captioned walkthrough designed for direct review in the Brand Portal.
 
 ## Video Title
 
@@ -8,7 +12,7 @@ EvidenceOps Agent Brand Portal Walkthrough
 
 ## Target Length
 
-60-90 seconds.
+30 seconds for the generated captioned MP4. 60-90 seconds if a narrated screen recording is later required by the form.
 
 ## Recording Setup
 
@@ -49,4 +53,4 @@ EvidenceOps Agent Brand Portal: a complete security-native identity system for a
 
 - If uploading to YouTube, use unlisted visibility.
 - Use `brand-portal/assets/social/devpost-cover.png` as thumbnail if a thumbnail is needed.
-- Add the video URL to `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` only after the upload is complete.
+- `BRAND_PORTALS_FINAL_SUBMISSION_FIELDS.md` already includes the direct MP4 URL.

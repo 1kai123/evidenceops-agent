@@ -55,6 +55,7 @@ Splunk Agentic Ops Hackathon.
 - Brand Portals single-entry review index: `BRAND_PORTALS_SUBMISSION_INDEX.md`; complete upload/support zip will be published as `brand-portals-submission-pack.zip`.
 - Brand Portals Devpost eligibility: updated and saved successfully on 2026-06-09 with `Student`, `College`, `China University of Geosciences (Wuhan)`, graduation `June 2028`, and user-provided birth month/year.
 - Brand Portals BrandKity URL: published and verified at https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+- Brand Portals walkthrough video: generated, embedded in the Brand Portal, and prepared as a direct supporting URL at https://1kai123.github.io/evidenceops-agent/brand-portal/assets/video/evidenceops-brand-walkthrough.mp4
 - Brand Portals blocker: `https://brand.devpost.com/` still returns HTTP 403 after Devpost eligibility update and after publishing the BrandKity kit. Devpost support has been contacted; the current likely path is waiting for restored access or an alternate organizer-approved submission path.
 - Devpost support email for Brand Portals 403 was sent to `support@devpost.com` on 2026-06-11 after user confirmation. Source copies remain in `DEVPOST_SUPPORT_EMAIL_READY.md`, `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`, and `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`.
 - BrandKity transfer: prepared in `BRANDKITY_TRANSFER_GUIDE.md`; asset package generated at `brand-portal/assets/evidenceops-brand-assets.zip`.
