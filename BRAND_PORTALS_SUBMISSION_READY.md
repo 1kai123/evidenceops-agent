@@ -4,7 +4,13 @@
 
 EvidenceOps Agent Brand Portal
 
-## Live Brand Portal
+## Primary Submission URL
+
+Use the published BrandKity BrandKit first:
+
+https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
+
+## Live Brand Portal Backup
 
 https://1kai123.github.io/evidenceops-agent/brand-portal/
 
@@ -71,8 +77,8 @@ HTML, CSS, JavaScript, SVG, brand design, identity system, product storytelling,
 
 The hackathon name implies BrandKity/brand portal tooling may be expected. A BrandKity-hosted BrandKit is now published and should be used as the primary submission URL.
 
-Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network. The most likely fix is completing Devpost student eligibility fields and retrying. If it still returns 403 afterward, contact Devpost support with the public Brand Portal URL and ask whether the account is eligible for Brand Portals for Brands.
+Current blocker: `https://brand.devpost.com/` returns HTTP 403 for the current account/network even after Devpost student eligibility and BrandKity publishing were completed. Devpost support was contacted on 2026-06-11 with the published BrandKity URL, GitHub Pages backup, asset package, QA report, and repository.
 
 BrandKity path completed: Google login succeeded, the `EvidenceOps Agent` BrandKit was created, content and assets were added, and the public BrandKity URL was verified.
 
-Access recovery steps and a Devpost support template are prepared in `BRAND_PORTALS_ACCESS_RECOVERY.md`.
+Access recovery status and the Devpost support email copy are recorded in `BRAND_PORTALS_ACCESS_RECOVERY.md`.

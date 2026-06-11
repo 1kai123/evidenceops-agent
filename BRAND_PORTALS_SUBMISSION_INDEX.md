@@ -23,6 +23,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 - Copy-ready Devpost / BrandKity submission fields.
 - Devpost 403 recovery email sent to support.
 - China student prize-claiming preparation guide.
+- Competition strategy file with prize, deadline, and scoring-weight mapping.
 
 ## Best Submission URL Order
 
@@ -45,6 +46,7 @@ Use this as the single entry point for Brand Portals for Brands review, support,
 - Plain-text email copy: `DEVPOST_SUPPORT_EMAIL_PLAIN.txt`
 - Desktop email draft archive: `DEVPOST_SUPPORT_EMAIL_DRAFT.eml`
 - Prize claiming guide: `PRIZE_CLAIMING_GUIDE_CHINA_STUDENT.md`
+- Competition strategy: `BRAND_PORTALS_COMPETITION_STRATEGY.md`
 
 ## Required User-Only Steps
 

@@ -1,10 +1,11 @@
 # Brand Portal QA Report
 
-Checked date: 2026-06-09.
+Checked date: 2026-06-11.
 
 ## Live URLs
 
 - Brand portal: https://1kai123.github.io/evidenceops-agent/brand-portal/
+- Published BrandKity BrandKit: https://brandkity.com/p/zhangmengcheng23s-workspace/evidenceops-agent
 - Main product page with Brand Portals entry: https://1kai123.github.io/evidenceops-agent/
 - Asset package: https://1kai123.github.io/evidenceops-agent/brand-portal/assets/evidenceops-brand-assets.zip
 
@@ -15,6 +16,7 @@ Checked date: 2026-06-09.
 | Live page loads | HTTP 200 from GitHub Pages | Pass |
 | Brand Portal title present | Page contains `EvidenceOps Agent Brand Portal` | Pass |
 | Asset library present | Page contains asset download links | Pass |
+| Published BrandKity URL visible | Page links directly to the public BrandKity BrandKit | Pass |
 | BrandKity transfer section present | Page contains `BrandKity` transfer guidance | Pass |
 | Judging criteria mapping present | Page contains the five criteria: presentation, organization, design quality, consistency, completeness | Pass |
 | Root demo links to brand portal | Root page contains Brand Portals entry links | Pass |
@@ -33,9 +35,10 @@ Local screenshot asset:
 The Brand Portal itself is ready and now includes a visible judging-criteria mapping. The remaining risk is platform access:
 
 - `https://brand.devpost.com/` returns HTTP 403 for the current account/network.
-- BrandKity signup is accessible but requires Google login or email/password plus Cloudflare Turnstile.
-- Devpost student eligibility fields are incomplete and require user-provided personal information.
+- BrandKity account creation, kit transfer, and public publishing are complete.
+- Devpost student eligibility fields were updated successfully on 2026-06-09.
+- Devpost support email was sent on 2026-06-11 asking for restored access or an alternate accepted submission path.
 
 ## Recommendation
 
-Complete Devpost student eligibility first, then retry `https://brand.devpost.com/`. If access remains blocked, create a BrandKity account manually, transfer the kit using `BRANDKITY_TRANSFER_GUIDE.md`, then contact Devpost support with the BrandKity URL and GitHub Pages backup URL.
+Wait for Devpost support to restore access or provide an alternate accepted submission path, then use the published BrandKity URL as the primary project URL and the GitHub Pages portal as the backup evidence package.
