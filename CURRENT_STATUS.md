@@ -44,7 +44,7 @@ Splunk Agentic Ops Hackathon.
 - Public project page: verified.
 - Embedded demo video: verified as YouTube `9U1Q8vSjjBw`.
 - Judge Proof Pack: verified on GitHub Pages and Devpost story.
-- Splunk feedback prize path: feedback drafted and attempted, but no confirmed Google Forms receipt was shown. See `FEEDBACK_PRIZE_ATTEMPT.md`.
+- Splunk feedback prize path: submitted on 2026-06-18 and receipt-confirmed by Google Forms. See `FEEDBACK_PRIZE_ATTEMPT.md`.
 - Second cash-prize target selected and submitted: FIND EVIL!. Google Cloud Rapid Agent was reviewed but is not recommended if the entrant is a China resident. See `SECOND_HACKATHON_TARGET.md`.
 - FIND EVIL registration: completed.
 - FIND EVIL submission: completed and verified on Devpost public page.
